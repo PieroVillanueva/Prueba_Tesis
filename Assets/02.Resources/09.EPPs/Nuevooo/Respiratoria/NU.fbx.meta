@@ -1,0 +1,230 @@
+fileFormatVersion: 2
+guid: bb6fa274b6b95194b97187bf1cf2efe5
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      74: 1827226128182048838
+    second: Take 001
+  externalObjects:
+  - first:
+      type: UnityEngine:Cubemap
+      assembly: UnityEngine.CoreModule
+      name: diffuse_cube
+    second: {fileID: 8900000, guid: 1390ae370349e8545a672fa1e37d604e, type: 3}
+  - first:
+      type: UnityEngine:Cubemap
+      assembly: UnityEngine.CoreModule
+      name: specular_cube
+    second: {fileID: 8900000, guid: 1dc40a7d338aa0d4ab49ebb359f6f4a5, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: base_modificada
+    second: {fileID: 2100000, guid: c0e1f1a118c6a1f4c84c1671603823ce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: casco3
+    second: {fileID: 2100000, guid: 273d0218eb78fc641a4c199d50de6336, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: casco_complet
+    second: {fileID: 2100000, guid: 71fb338adedcf314d898d5b15c06ca43, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: correa2
+    second: {fileID: 2100000, guid: 47ab730a1200fac46b0131b180e2eef8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mascarilla_lente
+    second: {fileID: 2100000, guid: 2767a04ad983c694bae4830fe096eb4c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tubo5
+    second: {fileID: 2100000, guid: e156369cff87b584fa893c198ef672e1, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: base_1_wire_204204204_BaseColor
+    second: {fileID: 2800000, guid: 4ed38306d99eb8a45b2f3790ee02643e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: base_1_wire_204204204_Metallic
+    second: {fileID: 2800000, guid: 3590e0a7121c18f49a31db67b8157e04, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: base_1_wire_204204204_Normal
+    second: {fileID: 2800000, guid: a224aa39ca8d98349be8bddc6181bdc0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: base_1_wire_204204204_Roughness
+    second: {fileID: 2800000, guid: 8ac036eac3c491d46a6e81489b91030a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: casco_completo_Material _25_BaseColor
+    second: {fileID: 2800000, guid: 49684f3b4295ab34b809c22f26ec768d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: casco_completo_Material _25_Normal
+    second: {fileID: 2800000, guid: 1300119abdde03e4f96a635032017b35, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: casco_completo_Material _25_Roughness
+    second: {fileID: 2800000, guid: 6f81b7990448b63479e5cbc5d5a1e46e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ibl_brdf_lut
+    second: {fileID: 2800000, guid: fac5058e9da3253498a3a888aa83b6ce, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: respirador_forzado_casco_BaseColor
+    second: {fileID: 2800000, guid: 6c3117273a7aaa846b9f028efe964e26, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: respirador_forzado_casco_Metallic
+    second: {fileID: 2800000, guid: 5f189b82c35bde749a0da047b0df5a92, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: respirador_forzado_casco_Normal
+    second: {fileID: 2800000, guid: c4e441f6a9bedc14883374ec76643a1b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: respirador_forzado_casco_Roughness
+    second: {fileID: 2800000, guid: de38b6f4fb3a6a347a0e410261aff22e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: respirador_forzado_correa_BaseColor
+    second: {fileID: 2800000, guid: 88c98b83203c9ea42a7969a92e466a9d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: respirador_forzado_correa_Metallic
+    second: {fileID: 2800000, guid: d52b8bc51d24c6a40ab6b067e2cbfadc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: respirador_forzado_correa_Normal
+    second: {fileID: 2800000, guid: 5fc77a475fb58a940927684137cfa61f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: tubo2_wire_006135113_BaseColor
+    second: {fileID: 2800000, guid: a3c8d152b7965f346bda3a44162a83c2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: tubo2_wire_006135113_Normal
+    second: {fileID: 2800000, guid: acaa79a891fe4d64d9d70492506a6cad, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: tubo2_wire_006135113_Roughness
+    second: {fileID: 2800000, guid: ee465d1151b958b49b637b991f932542, type: 3}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.47
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 0.011938
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

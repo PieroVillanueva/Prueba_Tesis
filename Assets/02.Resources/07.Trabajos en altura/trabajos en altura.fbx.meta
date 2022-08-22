@@ -1,0 +1,330 @@
+fileFormatVersion: 2
+guid: 50a788aca263197459e5a5cfacf60374
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      74: 1827226128182048838
+    second: Take 001
+  externalObjects:
+  - first:
+      type: UnityEngine:Cubemap
+      assembly: UnityEngine.CoreModule
+      name: diffuse_cube
+    second: {fileID: 8900000, guid: 991988f387146584099acce1ee834e2d, type: 3}
+  - first:
+      type: UnityEngine:Cubemap
+      assembly: UnityEngine.CoreModule
+      name: specular_cube
+    second: {fileID: 8900000, guid: ba39fe316efebf141bf39bdc6b1876f5, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _Concrete_0_1
+    second: {fileID: 2100000, guid: 790fa05d3ad1c8145abda6ad5c295578, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: a10_Concrete_Fence_3
+    second: {fileID: 2100000, guid: 2b346034e06165f4088a43ee96272a7e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: a10_Concrete_fence1
+    second: {fileID: 2100000, guid: 2b346034e06165f4088a43ee96272a7e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: a11_Concrete_Fence_3
+    second: {fileID: 2100000, guid: 2b346034e06165f4088a43ee96272a7e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: a11_Concrete_fence1
+    second: {fileID: 2100000, guid: 2b346034e06165f4088a43ee96272a7e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: a12_Concrete_Fence_3
+    second: {fileID: 2100000, guid: 2b346034e06165f4088a43ee96272a7e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: a12_Concrete_fence1
+    second: {fileID: 2100000, guid: 2b346034e06165f4088a43ee96272a7e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: a13_Concrete_Fence_3
+    second: {fileID: 2100000, guid: 2b346034e06165f4088a43ee96272a7e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: a13_Concrete_fence1
+    second: {fileID: 2100000, guid: 2b346034e06165f4088a43ee96272a7e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: a14_Concrete_Fence_3
+    second: {fileID: 2100000, guid: 2b346034e06165f4088a43ee96272a7e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: a14_Concrete_fence1
+    second: {fileID: 2100000, guid: 2b346034e06165f4088a43ee96272a7e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: a15_Concrete_Fence_3
+    second: {fileID: 2100000, guid: 2b346034e06165f4088a43ee96272a7e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: a15_Concrete_fence1
+    second: {fileID: 2100000, guid: 2b346034e06165f4088a43ee96272a7e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: a16_Concrete_Fence_3
+    second: {fileID: 2100000, guid: 2b346034e06165f4088a43ee96272a7e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: a16_Concrete_fence1
+    second: {fileID: 2100000, guid: 2b346034e06165f4088a43ee96272a7e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: a17_Concrete_Fence_3
+    second: {fileID: 2100000, guid: 2b346034e06165f4088a43ee96272a7e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: a17_Concrete_fence1
+    second: {fileID: 2100000, guid: 2b346034e06165f4088a43ee96272a7e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: a18_Concrete_Fence_3
+    second: {fileID: 2100000, guid: 2b346034e06165f4088a43ee96272a7e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: a18_Concrete_fence1
+    second: {fileID: 2100000, guid: 2b346034e06165f4088a43ee96272a7e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: a19_Concrete_Fence_3
+    second: {fileID: 2100000, guid: 2b346034e06165f4088a43ee96272a7e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: a19_Concrete_fence1
+    second: {fileID: 2100000, guid: 2b346034e06165f4088a43ee96272a7e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: a1_Concrete_Fence_3
+    second: {fileID: 2100000, guid: 2b346034e06165f4088a43ee96272a7e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: a1_Concrete_fence1
+    second: {fileID: 2100000, guid: 2b346034e06165f4088a43ee96272a7e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: a2_Concrete_Fence_3
+    second: {fileID: 2100000, guid: 2b346034e06165f4088a43ee96272a7e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: a2_Concrete_fence1
+    second: {fileID: 2100000, guid: 2b346034e06165f4088a43ee96272a7e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: a3_Concrete_Fence_3
+    second: {fileID: 2100000, guid: 2b346034e06165f4088a43ee96272a7e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: a3_Concrete_fence1
+    second: {fileID: 2100000, guid: 2b346034e06165f4088a43ee96272a7e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: a4_Concrete_Fence_3
+    second: {fileID: 2100000, guid: 2b346034e06165f4088a43ee96272a7e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: a4_Concrete_fence1
+    second: {fileID: 2100000, guid: 2b346034e06165f4088a43ee96272a7e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: a5_Concrete_Fence_3
+    second: {fileID: 2100000, guid: 2b346034e06165f4088a43ee96272a7e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: a5_Concrete_fence1
+    second: {fileID: 2100000, guid: 2b346034e06165f4088a43ee96272a7e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: a6_Concrete_Fence_3
+    second: {fileID: 2100000, guid: 2b346034e06165f4088a43ee96272a7e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: a6_Concrete_fence1
+    second: {fileID: 2100000, guid: 2b346034e06165f4088a43ee96272a7e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: a7_Concrete_Fence_3
+    second: {fileID: 2100000, guid: 2b346034e06165f4088a43ee96272a7e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: a7_Concrete_fence1
+    second: {fileID: 2100000, guid: 2b346034e06165f4088a43ee96272a7e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: a8_Concrete_Fence_3
+    second: {fileID: 2100000, guid: 2b346034e06165f4088a43ee96272a7e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: a8_Concrete_fence1
+    second: {fileID: 2100000, guid: 2b346034e06165f4088a43ee96272a7e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: a9_Concrete_Fence_3
+    second: {fileID: 2100000, guid: 2b346034e06165f4088a43ee96272a7e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: a9_Concrete_fence1
+    second: {fileID: 2100000, guid: 2b346034e06165f4088a43ee96272a7e, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: escaleras_Material _11_BaseColor
+    second: {fileID: 2800000, guid: 901592e5999968c4e8ec34491249df7e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: escaleras_Material _11_Metallic
+    second: {fileID: 2800000, guid: 0ce9c1251fc1d164bb0e80ced6f11eec, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: escaleras_Material _11_Normal
+    second: {fileID: 2800000, guid: 99f8cf4dd6ebc1e47aeb3e669856adc6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: escaleras_Material _11_Roughness
+    second: {fileID: 2800000, guid: 805707227739d3c43938a9fd6bb54c7e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ibl_brdf_lut
+    second: {fileID: 2800000, guid: 4b379763fedc4f94da8cf519655fcd4b, type: 3}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,292 @@
+fileFormatVersion: 2
+guid: 611b5bf4033912d42af47f51d011789b
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Cubemap
+      assembly: UnityEngine.CoreModule
+      name: diffuse_cube
+    second: {fileID: 8900000, guid: 91fc14dffe4b5134bba2199f79391cd2, type: 3}
+  - first:
+      type: UnityEngine:Cubemap
+      assembly: UnityEngine.CoreModule
+      name: specular_cube
+    second: {fileID: 8900000, guid: 71fdb3007400a504199ea426fdb75c08, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Business___Shirt_diffuse
+    second: {fileID: 2800000, guid: 5215ae7a3e5945a41aa02b41005e48fe, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Business___Shirt_normal
+    second: {fileID: 2800000, guid: f2f9da580734c464b9a8c806e36876ed, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Business___Shirt_roughness
+    second: {fileID: 2800000, guid: dec77cc7a9c472841a017be133b1f053, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Hair_diffuse
+    second: {fileID: 2800000, guid: ca144def2552bbb4ebae63849754666b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Slacks_diffuse
+    second: {fileID: 2800000, guid: a1f0092d9ee2b5347a37a83a1690a22b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Slacks_normal
+    second: {fileID: 2800000, guid: 04a8ec01369bdc94e92b2f8ce8034fce, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Slacks_roughness
+    second: {fileID: 2800000, guid: 475e9dcf9e560294f802cb319d4694e5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Std_Eye_L_normal
+    second: {fileID: 2800000, guid: 0204c66d56b1fff41abbcc83514c6f52, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Std_Eye_R_diffuse
+    second: {fileID: 2800000, guid: defbfb1feb6ca98429f3fdaec10a55da, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Std_Eye_R_roughness
+    second: {fileID: 2800000, guid: 94dc62aa7d008a24fbafe3bff6e573e2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Std_Eyelash_diffuse
+    second: {fileID: 2800000, guid: 6ee3cf63b35e14a49a1c4693b0eac13b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Std_Eyelash_roughness
+    second: {fileID: 2800000, guid: 24c19dd62a1249249b2d633edba366de, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Std_Skin_Head_diffuse
+    second: {fileID: 2800000, guid: adfa27029a618184ca1a9f07ffdc7dc7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Std_Skin_Head_normal
+    second: {fileID: 2800000, guid: 7782602617e08d5489e7cbc3702452ff, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Std_Skin_Head_roughness
+    second: {fileID: 2800000, guid: 966bad76826f3754291851f5731271de, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: casco_rescate_casco_BaseColor
+    second: {fileID: 2800000, guid: f0e5d9b12652c4e48ad468e21510dc2e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: casco_rescate_casco_Normal
+    second: {fileID: 2800000, guid: 6d2d58debf6095e4ea60adc2d0f9fe14, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: casco_rescate_casco_Roughness
+    second: {fileID: 2800000, guid: e00c73ee8f0964f4ca717899aea07b17, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: casco_rescate_colchon_BaseColor
+    second: {fileID: 2800000, guid: e731e66b01a58dc4c9ab07e559fd5fca, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: casco_rescate_colchon_Normal
+    second: {fileID: 2800000, guid: 18d733f456dda7c448311d2b1b24f856, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: casco_rescate_colchon_Roughness
+    second: {fileID: 2800000, guid: bfcb0f28d68fe3c45a84046628956225, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: casco_rescate_correas_BaseColor
+    second: {fileID: 2800000, guid: c80a105962292a04eab3be05c5d02ede, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: casco_rescate_correas_Normal
+    second: {fileID: 2800000, guid: e1da9a22f087a2943850f76f43fad93e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: casco_rescate_correas_Roughness
+    second: {fileID: 2800000, guid: 8029b6d1d23a775409414846efba368f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: casco_rescate_lentes_BaseColor
+    second: {fileID: 2800000, guid: 5fb16849b48e1974384f2ded31b8398b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: casco_rescate_lentes_Normal
+    second: {fileID: 2800000, guid: 63f64cf23f05c454fa3915d4bb7e2dac, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: casco_rescate_lentes_Roughness
+    second: {fileID: 2800000, guid: 662ba9c10a8e51e4fa55a480bc80cf68, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: casco_rescate_linterna_BaseColor
+    second: {fileID: 2800000, guid: 196ec66cde972ce4085d801686676a29, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: casco_rescate_linterna_Normal
+    second: {fileID: 2800000, guid: cff49fd04a638d244a4b8469c8f50ba3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: casco_rescate_linterna_Roughness
+    second: {fileID: 2800000, guid: 9ead3b877ade1274f8f20df61ebb60dd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: chaleco_seguridad_DefaultMaterial_BaseColor
+    second: {fileID: 2800000, guid: 9444ce097088b744ca58a349cca88481, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: chaleco_seguridad_DefaultMaterial_Normal
+    second: {fileID: 2800000, guid: b157af1990eee12449b70152cecf4a0b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: chaleco_seguridad_DefaultMaterial_Roughness
+    second: {fileID: 2800000, guid: 2618b2c2858422d459e64b37969b54c1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: guante_low_default_BaseColor
+    second: {fileID: 2800000, guid: 4161435831f9a66498dabf7044b53d5e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: guante_low_default_Normal
+    second: {fileID: 2800000, guid: 8d07b4ea3632b994cb8cf78f6f529842, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: guante_low_default_Roughness
+    second: {fileID: 2800000, guid: dedc670353b4a3745a21444acbc11bd6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ibl_brdf_lut
+    second: {fileID: 2800000, guid: bd4928a2c92bf544eb6fab0f04ce9fb5, type: 3}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.5
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 0.5
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
