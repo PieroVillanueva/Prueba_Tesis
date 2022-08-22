@@ -1,0 +1,355 @@
+fileFormatVersion: 2
+guid: 19867ce4e74537c418ce332ad0835538
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      74: 1827226128182048838
+    second: Take 001
+  externalObjects:
+  - first:
+      type: UnityEngine:Cubemap
+      assembly: UnityEngine.CoreModule
+      name: diffuse_cube
+    second: {fileID: 8900000, guid: 2b8a24f9aa2b0fd49a0f25e955e47d16, type: 3}
+  - first:
+      type: UnityEngine:Cubemap
+      assembly: UnityEngine.CoreModule
+      name: specular_cube
+    second: {fileID: 8900000, guid: a4456e259ac212d4ba8c2512f0bc512b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ibl_brdf_lut
+    second: {fileID: 2800000, guid: c8e7237a06df82c4482085632073dc9c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: montacargas_2_base_ruedas_BaseColor
+    second: {fileID: 2800000, guid: 8e813d9d0fbf19a4eb75cabc1c7e5f4c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: montacargas_2_base_ruedas_Metallic
+    second: {fileID: 2800000, guid: 54035484604ee40459e58db41eace6f4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: montacargas_2_base_ruedas_Normal
+    second: {fileID: 2800000, guid: 420284aad8641df4db40733c7fc17027, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: montacargas_2_base_ruedas_Roughness
+    second: {fileID: 2800000, guid: 9e89534d3c7db5940ac164c5cd254542, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: montacargas_2_carga_BaseColor
+    second: {fileID: 2800000, guid: 41bd5833081bf5842969777c8dad1287, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: montacargas_2_carga_Metallic
+    second: {fileID: 2800000, guid: db54932330ba11d42aa95000a942246f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: montacargas_2_carga_Normal
+    second: {fileID: 2800000, guid: 4feea087097ba9943be538ec19aebebf, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: montacargas_2_carga_Roughness
+    second: {fileID: 2800000, guid: 832af2e65380f6a4a9a73ee8346b1783, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: montacargas_2_estructura_2_BaseColor
+    second: {fileID: 2800000, guid: c31a77ccef7b41e468361132a247e9ce, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: montacargas_2_estructura_2_Metallic
+    second: {fileID: 2800000, guid: a63943698e270484ba93e1dae63b71f2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: montacargas_2_estructura_2_Normal
+    second: {fileID: 2800000, guid: 88ff9a67b3c835f4fbcb6c86159b85b2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: montacargas_2_estructura_2_Roughness
+    second: {fileID: 2800000, guid: 93b01ad0f8496564f9d954bc39d74301, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: montacargas_2_estructura_general_BaseColor
+    second: {fileID: 2800000, guid: 247d5d3e99e800b4bbc935d863861c50, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: montacargas_2_estructura_general_Metallic
+    second: {fileID: 2800000, guid: c5919e989d2f8f844a8237471efc5823, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: montacargas_2_estructura_general_Normal
+    second: {fileID: 2800000, guid: 4e51d1213fa958f40b56c544b7ca1734, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: montacargas_2_estructura_general_Roughness
+    second: {fileID: 2800000, guid: 2a634add4109d3f49bc9e2e4a3f53ee3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: montacargas_2_piezas_BaseColor
+    second: {fileID: 2800000, guid: 135c6ebd5fdff944ab2367b32bd4895f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: montacargas_2_piezas_Emissive
+    second: {fileID: 2800000, guid: 14d583f2343a898449452e3e488d7a3a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: montacargas_2_piezas_Metallic
+    second: {fileID: 2800000, guid: 5fadb065396d01d499ca84dcc86ef74a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: montacargas_2_piezas_Normal
+    second: {fileID: 2800000, guid: d2d960cafa162c449a54840802c5ee44, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: montacargas_2_piezas_Roughness
+    second: {fileID: 2800000, guid: ed5dc26d0f0c37e42b50e2630f3ff146, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: montacargas_2_ruedas_1_BaseColor
+    second: {fileID: 2800000, guid: 59e79ec569e636b449cc1e66151cf4d3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: montacargas_2_ruedas_1_Metallic
+    second: {fileID: 2800000, guid: 99e30b75db2a43d4ebe05aaf31f091f1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: montacargas_2_ruedas_1_Normal
+    second: {fileID: 2800000, guid: 4361108272da3ff4e94303e6f95556f1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: montacargas_2_ruedas_1_Roughness
+    second: {fileID: 2800000, guid: 6b11847d990271e47816d38ee302f01e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: montacargas_2_ruedas_2_BaseColor
+    second: {fileID: 2800000, guid: 84a13a0fc2d89194fb07160200058537, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: montacargas_2_ruedas_2_Metallic
+    second: {fileID: 2800000, guid: 8f3729a23fde1f44f828f83ad0abf417, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: montacargas_2_ruedas_2_Normal
+    second: {fileID: 2800000, guid: 8f762233a748dd64291a81c784b5803d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: montacargas_2_ruedas_2_Roughness
+    second: {fileID: 2800000, guid: 64c9bb4d96137a84ba96cd05e1787964, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: montacargas_2_ruedas_3_BaseColor
+    second: {fileID: 2800000, guid: 664e8b6f118c74c40955871416e1b403, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: montacargas_2_ruedas_3_Normal
+    second: {fileID: 2800000, guid: 112f95ab37dfb9e479b9b7ff1e33590b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: montacargas_2_ruedas_3_Roughness
+    second: {fileID: 2800000, guid: 61639989c76c0e94f8f71fb2a3bc2a7f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: montacargas_2_vidreos_BaseColor
+    second: {fileID: 2800000, guid: 33bb054d95525e6428ec796278202576, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: montacargas_2_vidreos_Metallic
+    second: {fileID: 2800000, guid: 05a11839ff8b58242b2e8d3dc48b1822, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: montacargas_2_vidreos_Normal
+    second: {fileID: 2800000, guid: 24bc4982125dd464c9a3422bcedfa6e4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: montacargas_2_vidreos_Roughness
+    second: {fileID: 2800000, guid: 6a8ad77ca3328da4587347a8755e4e09, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: parte_interna_interior_base_BaseColor
+    second: {fileID: 2800000, guid: a1a43b9f711a3ed4da570878d34bbf37, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: parte_interna_interior_base_Metallic
+    second: {fileID: 2800000, guid: 816aaaefff001174e82533730357b2fd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: parte_interna_interior_base_Normal
+    second: {fileID: 2800000, guid: e6f1a87855e944149a85a92b1da8b92e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: parte_interna_interior_base_Roughness
+    second: {fileID: 2800000, guid: 66eb3011e1af6de45961675bf266da60, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: parte_interna_interior_palancas_BaseColor
+    second: {fileID: 2800000, guid: 9f6cab0359a369c44881ea0c1bf2ad21, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: parte_interna_interior_palancas_Metallic
+    second: {fileID: 2800000, guid: 3c56e0f91544c3d4b85b14dee8c289f7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: parte_interna_interior_palancas_Normal
+    second: {fileID: 2800000, guid: 580e95fe403ec474a8585a20359ed76f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: parte_interna_interior_palancas_Roughness
+    second: {fileID: 2800000, guid: fe6b79991df12674fae569509822e6c2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: parte_interna_interior_silla_BaseColor
+    second: {fileID: 2800000, guid: 3997617ae5fa2ac4ab38c9c5a2e3b0a1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: parte_interna_interior_silla_Metallic
+    second: {fileID: 2800000, guid: b6d00f76bd4e2a94f976ad0815126c8b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: parte_interna_interior_silla_Normal
+    second: {fileID: 2800000, guid: b71617282f3ce6a42a4f384b1553f388, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: parte_interna_interior_silla_Roughness
+    second: {fileID: 2800000, guid: 9c431955c56bbea43be4ce8590cfbca9, type: 3}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

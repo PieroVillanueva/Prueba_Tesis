@@ -1,0 +1,240 @@
+fileFormatVersion: 2
+guid: 72002a59dab66a14ab49f42508b89d98
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      74: 1827226128182048838
+    second: Take 001
+  externalObjects:
+  - first:
+      type: UnityEngine:Cubemap
+      assembly: UnityEngine.CoreModule
+      name: diffuse_cube
+    second: {fileID: 8900000, guid: 86dc307e913e2524095b92e8a8d32138, type: 3}
+  - first:
+      type: UnityEngine:Cubemap
+      assembly: UnityEngine.CoreModule
+      name: specular_cube
+    second: {fileID: 8900000, guid: ae4168d256445cb41ab8fbc7a70a95ca, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: escritorio_completo_case_BaseColor
+    second: {fileID: 2800000, guid: dac1d056524f7b948bc239105ec19c4b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: escritorio_completo_case_Metallic
+    second: {fileID: 2800000, guid: 3cb71d7aa2ba36c40ae7a666d447bca6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: escritorio_completo_case_Normal
+    second: {fileID: 2800000, guid: 5f42ce4ac972ed843946f0cddabee656, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: escritorio_completo_case_Roughness
+    second: {fileID: 2800000, guid: 8e9e4ecd9e9f1b5409842954aab52fb1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: escritorio_completo_cubiculo_BaseColor
+    second: {fileID: 2800000, guid: ae9879e34f42f48499fc90ad174ee8f6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: escritorio_completo_cubiculo_Normal
+    second: {fileID: 2800000, guid: 1dc1edc5f0f1bc14ebfe947e5e55c2e3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: escritorio_completo_escritorio_BaseColor
+    second: {fileID: 2800000, guid: f9994f5c6e00e9f4e8210e4067a351f4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: escritorio_completo_escritorio_Metallic
+    second: {fileID: 2800000, guid: ddec7a2bbb5c62a4faed13a046b262ee, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: escritorio_completo_escritorio_Normal
+    second: {fileID: 2800000, guid: 116bfaa3357d5cb4b9aeb726b41261fe, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: escritorio_completo_escritorio_Roughness
+    second: {fileID: 2800000, guid: 9a42c0e8c6c1a334885036b7a867f866, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: escritorio_completo_monitor_BaseColor
+    second: {fileID: 2800000, guid: b58e92e35d2eccd42989df1a5f59f168, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: escritorio_completo_monitor_Metallic
+    second: {fileID: 2800000, guid: a543aeb06a593e54b8cfac1ec1eb2ce0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: escritorio_completo_monitor_Normal
+    second: {fileID: 2800000, guid: 96a45eb2fdf867644b5fd46b477bf125, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: escritorio_completo_monitor_Roughness
+    second: {fileID: 2800000, guid: dbd7cabb815bff94a8feb7df309d94a3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: escritorio_completo_mouse_BaseColor
+    second: {fileID: 2800000, guid: 80420e1837b069542955750cf8139901, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: escritorio_completo_mouse_Normal
+    second: {fileID: 2800000, guid: 75f005abca18df94f99c232cc9db94da, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: escritorio_completo_mouse_Roughness
+    second: {fileID: 2800000, guid: 7209c7b35fb14a846847005aef18b92c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: escritorio_completo_silla_BaseColor
+    second: {fileID: 2800000, guid: da8fa954a57ee884eb0b4b2cab5b281d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: escritorio_completo_silla_Metallic
+    second: {fileID: 2800000, guid: 8cf2a0827e9dd3b4d8bab0e5b78bbda8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: escritorio_completo_silla_Normal
+    second: {fileID: 2800000, guid: 2dfd6f354152ddb4e8fa169c37cfd5c0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: escritorio_completo_silla_Roughness
+    second: {fileID: 2800000, guid: 0a9ccd7380a19e746814b7ff0eaf6b16, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: escritorio_completo_teclado_BaseColor
+    second: {fileID: 2800000, guid: de12023aafe0a184b96aed200d612e98, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: escritorio_completo_teclado_Metallic
+    second: {fileID: 2800000, guid: 7522e7d0d72150643823b57594262702, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: escritorio_completo_teclado_Normal
+    second: {fileID: 2800000, guid: 32648fe2fa4999e408c6fb5f6b5b8691, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: escritorio_completo_teclado_Roughness
+    second: {fileID: 2800000, guid: c634a78aa6bffbd48b97d73d2a606142, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ibl_brdf_lut
+    second: {fileID: 2800000, guid: 56335a881f80b614d88c6eaaee3df3a2, type: 3}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
