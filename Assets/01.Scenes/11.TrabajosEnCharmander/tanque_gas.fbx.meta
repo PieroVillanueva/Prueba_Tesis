@@ -1,0 +1,170 @@
+fileFormatVersion: 2
+guid: 267e61884f3182148b55c5c31dc09653
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      74: 1827226128182048838
+    second: Take 001
+  externalObjects:
+  - first:
+      type: UnityEngine:Cubemap
+      assembly: UnityEngine.CoreModule
+      name: diffuse_cube
+    second: {fileID: 8900000, guid: 0101312c0949e4d47bc902e748eea987, type: 3}
+  - first:
+      type: UnityEngine:Cubemap
+      assembly: UnityEngine.CoreModule
+      name: specular_cube
+    second: {fileID: 8900000, guid: 37c4ade478ef4974eb95c88eb62f4439, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ibl_brdf_lut
+    second: {fileID: 2800000, guid: 3b4f249f79b89eb4ba35f54121b23435, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: tanque_gas_wire_154215229_BaseColor
+    second: {fileID: 2800000, guid: a8d129d04a499a74ba1a54976945134f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: tanque_gas_wire_154215229_Normal
+    second: {fileID: 2800000, guid: 774c5cd5b1fe6194692d92972114d26c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: tanque_gas_wire_154215229_Roughness
+    second: {fileID: 2800000, guid: dbce47e1c5807e04b9fb2882ef541a8c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: tanque_gas_wire_177027088_BaseColor
+    second: {fileID: 2800000, guid: b229d6d6bf350a34babc763e7749b76c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: tanque_gas_wire_177027088_Metallic
+    second: {fileID: 2800000, guid: da9f854becfc6ae48a0eac48da879316, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: tanque_gas_wire_177027088_Normal
+    second: {fileID: 2800000, guid: 3a060519c52e8ea4888923b4dff98f8c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: tanque_gas_wire_177027088_Roughness
+    second: {fileID: 2800000, guid: d1a311d4a422c144cad7c6316db1c847, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: tanque_gas_wire_228214153_BaseColor
+    second: {fileID: 2800000, guid: cd9eefac8d25fd34490f2a7c2221fdb5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: tanque_gas_wire_228214153_Metallic
+    second: {fileID: 2800000, guid: c5589cb97c7bcca4e9a795760ea7f76c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: tanque_gas_wire_228214153_Normal
+    second: {fileID: 2800000, guid: 42b6da9fe0deca447bbf2746acfd0577, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: tanque_gas_wire_228214153_Roughness
+    second: {fileID: 2800000, guid: ed8cbc8401d631f41b9555d31ed34b14, type: 3}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.6
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 0.015240001
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
