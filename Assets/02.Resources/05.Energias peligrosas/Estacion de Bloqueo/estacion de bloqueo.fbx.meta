@@ -1,0 +1,251 @@
+fileFormatVersion: 2
+guid: b59cfafca9b4c6444853ff4d91482a01
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      74: 1827226128182048838
+    second: Take 001
+  externalObjects:
+  - first:
+      type: UnityEngine:Cubemap
+      assembly: UnityEngine.CoreModule
+      name: diffuse_cube
+    second: {fileID: 8900000, guid: 5f933b6c5e3f10448949a2ab316acb89, type: 3}
+  - first:
+      type: UnityEngine:Cubemap
+      assembly: UnityEngine.CoreModule
+      name: specular_cube
+    second: {fileID: 8900000, guid: ef565776e0ea55f40a2c5a1f921c4d17, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StingrayPBS1
+    second: {fileID: 3047757302091345898, guid: a27474425854b7b48878076cf5090968,
+      type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: candado_1_Material _25_BaseColor
+    second: {fileID: 2800000, guid: 311fdb71c77af0a47aec255d27978d36, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: candado_1_Material _25_Metallic
+    second: {fileID: 2800000, guid: 99cea8fd30799dd41a7ff44393ee7301, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: candado_1_Material _25_Normal
+    second: {fileID: 2800000, guid: da55980dfebdecf4194778779a763f6d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: candado_1_Material _25_Roughness
+    second: {fileID: 2800000, guid: 8013a643094896b4ab5e4fd29bdfd6ec, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: estacion de bloquo_Material _27_BaseColor
+    second: {fileID: 2800000, guid: a33aacba827d98b43bb80d3ad746def5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: estacion de bloquo_Material _27_Normal
+    second: {fileID: 2800000, guid: 6531f54f0a0af1046a04ca708cc52b55, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: estacion de bloquo_Material _27_Roughness
+    second: {fileID: 2800000, guid: a7e5e196adf912a409cd5978603b8ef3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: estacion de bloquo_Material _28_BaseColor
+    second: {fileID: 2800000, guid: 85414e7060d4de04fbe2a497729db458, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: estacion de bloquo_Material _28_Metallic
+    second: {fileID: 2800000, guid: 21fea4515d9ba534a857e0181b6886e6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: estacion de bloquo_Material _28_Normal
+    second: {fileID: 2800000, guid: a090e024822ec6b41b00810baab19ece, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: estacion de bloquo_Material _28_Roughness
+    second: {fileID: 2800000, guid: b4e2b42efb01d864588ce8e89af5df9d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: estacion de bloquo_Material _29_BaseColor
+    second: {fileID: 2800000, guid: 27f4ca97f2b534748b0b5c98f1c523d2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: estacion de bloquo_Material _29_Normal
+    second: {fileID: 2800000, guid: 78eece32e7941684fb9ec0094c9beed0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: estacion de bloquo_Material _29_Roughness
+    second: {fileID: 2800000, guid: f57930230569c624abe578f0051100ef, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: estacion de bloquo_Material _30_BaseColor
+    second: {fileID: 2800000, guid: 785fdde3d62206d4baa0212da9af02d2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: estacion de bloquo_Material _30_Roughness
+    second: {fileID: 2800000, guid: 5499af3d09f63b1418a385731867774f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: estacion de bloquo_Material _31_BaseColor
+    second: {fileID: 2800000, guid: 63015f15ecf64cd4fa822e1084491cd7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: estacion de bloquo_Material _31_Normal
+    second: {fileID: 2800000, guid: b1485b175e9b07e4f9947eef13b35183, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: estacion de bloquo_Material _31_Roughness
+    second: {fileID: 2800000, guid: 3ad9f25f852ae8841858515ab87a3e9a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: estacion de bloquo_Material _32_BaseColor
+    second: {fileID: 2800000, guid: 4ce938295c6067f40bec7e84e23ba7ff, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: estacion de bloquo_Material _32_Metallic
+    second: {fileID: 2800000, guid: bab386f1aa9e40f4198aff6c1628d570, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: estacion de bloquo_Material _32_Normal
+    second: {fileID: 2800000, guid: ec421b154a19da34391b60fdee6f8ea0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: estacion de bloquo_Material _32_Roughness
+    second: {fileID: 2800000, guid: 765e21b109f984240b86ceef86459624, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: estacion de bloquo_Material _33_BaseColor
+    second: {fileID: 2800000, guid: 89c2bf6f64a911f448f4960e69d2c316, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: estacion de bloquo_Material _33_Normal
+    second: {fileID: 2800000, guid: 16e37adb3974bbe4783a467cd03e4a94, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: estacion de bloquo_Material _33_Roughness
+    second: {fileID: 2800000, guid: 41490ad387497fd48b89f1a0d1b8f3a2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ibl_brdf_lut
+    second: {fileID: 2800000, guid: 1cc20d458aae26d4cad572a8bc72ff45, type: 3}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
+    importBlendShapes: 0
+    importCameras: 0
+    importLights: 0
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 0
+    normalImportMode: 1
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

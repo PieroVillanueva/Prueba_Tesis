@@ -1,0 +1,458 @@
+fileFormatVersion: 2
+guid: 10d382b1fc6b8f249a03714cc8a02247
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      74: 1827226128182048838
+    second: Take 001
+  - first:
+      74: -203655887218126122
+    second: mixamo.com
+  externalObjects:
+  - first:
+      type: UnityEngine:Cubemap
+      assembly: UnityEngine.CoreModule
+      name: diffuse_cube
+    second: {fileID: 8900000, guid: 3e28af3ebd612c04cb1b130d0096d4c6, type: 3}
+  - first:
+      type: UnityEngine:Cubemap
+      assembly: UnityEngine.CoreModule
+      name: specular_cube
+    second: {fileID: 8900000, guid: 5326a9b803ef8054193d284f61a15adf, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Business___Shirt_diffuse
+    second: {fileID: 2800000, guid: 08d4ede4cfae46a4ba20af70b7058f5d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Business___Shirt_normal
+    second: {fileID: 2800000, guid: c1c9e5ee280db6f428b610d137892b1d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Business___Shirt_roughness
+    second: {fileID: 2800000, guid: 7c1a409b76fc26b49853066088b389cf, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Hair_diffuse
+    second: {fileID: 2800000, guid: 2eb87f5106abc794ba4b198795214a86, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Leather___shoes_diffuse
+    second: {fileID: 2800000, guid: afd79b55fb1f4a845b69ae6d35eeeb66, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Leather___shoes_normal
+    second: {fileID: 2800000, guid: 1ef8f65d451bb704b8705d21e2cc87c0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Leather___shoes_roughness
+    second: {fileID: 2800000, guid: 8d4a523cb33a8ef45baaf4da03d1026f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: MAT_webbing_diffuse
+    second: {fileID: 2800000, guid: 1e8520ef09c94ab49b4557630e5b3701, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: MAT_webbing_roughness
+    second: {fileID: 2800000, guid: 0350aca525623664da3a4d5787dc0d13, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Scalp_diffuse
+    second: {fileID: 2800000, guid: 5700a2538b430c24d9c14a3ed0c10d40, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Scalp_roughness
+    second: {fileID: 2800000, guid: 4fdc9d40db9046d4d9990217d03e0cd7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Slacks_diffuse
+    second: {fileID: 2800000, guid: 8bf4c5b21b35f044f9dd3b97b20fa672, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Slacks_normal
+    second: {fileID: 2800000, guid: e0417053518b5fe4d966fb427c786783, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Slacks_roughness
+    second: {fileID: 2800000, guid: 936e73c280a351e4ab181b5956a4119e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Std_Eye_L_normal
+    second: {fileID: 2800000, guid: 3789f69abd3ac9547a146df0785be36a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Std_Eye_R_diffuse
+    second: {fileID: 2800000, guid: 4d4b03542a759824d8a2502b7ff60bb3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Std_Eye_R_roughness
+    second: {fileID: 2800000, guid: 1570e717f654fed4f94618585fb9fb33, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Std_Eyelash_diffuse
+    second: {fileID: 2800000, guid: a417c18af09de6945b2546633a45f4e6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Std_Eyelash_roughness
+    second: {fileID: 2800000, guid: a918840489d795f4e96c330c7c3da592, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Std_Nails_diffuse
+    second: {fileID: 2800000, guid: 970f2f9fdcfdea243b3aff05c9f40c29, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Std_Nails_normal
+    second: {fileID: 2800000, guid: 7900a5c291f99d840910b476e29dc25b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Std_Nails_roughness
+    second: {fileID: 2800000, guid: 8194e99801fedf541aaf38c900a450d8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Std_Skin_Arm_diffuse
+    second: {fileID: 2800000, guid: 7bb90ce4a40dec540b2713f8b02c7621, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Std_Skin_Arm_normal
+    second: {fileID: 2800000, guid: 6bb667558f0e7b34389805b32d01f2cf, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Std_Skin_Arm_roughness
+    second: {fileID: 2800000, guid: ee5df8900eadff94a8a2f5c4de09a012, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Std_Skin_Body_diffuse
+    second: {fileID: 2800000, guid: 13adfd553b686d7479490edb331d7259, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Std_Skin_Body_normal
+    second: {fileID: 2800000, guid: 8a05a5a4b8d91a14cbd62fc8115bd7c5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Std_Skin_Body_roughness
+    second: {fileID: 2800000, guid: 2e565a8ad47913f4f83a8b8e499f56ca, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Std_Skin_Head_diffuse
+    second: {fileID: 2800000, guid: c134d98afd95354438e1c3b8f263d440, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Std_Skin_Head_normal
+    second: {fileID: 2800000, guid: 88a377a55c8340e4cbb2e2c5b952c6b1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Std_Skin_Head_roughness
+    second: {fileID: 2800000, guid: 5866fc9fd3aea0e4b8021ac331173674, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Std_Skin_Leg_diffuse
+    second: {fileID: 2800000, guid: 6c2691175e4890f449a181822ee30c2d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Std_Skin_Leg_normal
+    second: {fileID: 2800000, guid: ed180c632ae67434a9a29da365927e38, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Std_Skin_Leg_roughness
+    second: {fileID: 2800000, guid: 8dabb5fd3acde9649bae209abbb77894, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: WhatsApp Image 2022-01-25 at 8.42.59 AM
+    second: {fileID: 2800000, guid: 28a5c1d3b58610e4e92b3db031b9e505, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: casco_completo_Material _25_BaseColor
+    second: {fileID: 2800000, guid: afcdfcef664e22b4d9f5e5a9081e3093, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: casco_completo_Material _25_Normal
+    second: {fileID: 2800000, guid: db67eb760ef30324987ad59f771a521a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: casco_completo_Material _25_Roughness
+    second: {fileID: 2800000, guid: aa49245ae6772ad4cbe82c9e7506b9d0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: detector_gases_005
+    second: {fileID: 2800000, guid: 8bb58f36bea9d16448b3fa430e703844, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: equipo respiratorio_Material _56_BaseColor
+    second: {fileID: 2800000, guid: 3e64ffe530cbf234789b4789753f57d5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: equipo respiratorio_Material _56_Metallic
+    second: {fileID: 2800000, guid: d56357dc57ec47d45b0483e747f3d22b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: equipo respiratorio_Material _56_Normal
+    second: {fileID: 2800000, guid: 4acfc10f4a9f17146a67cc15000c284a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: equipo respiratorio_Material _56_Roughness
+    second: {fileID: 2800000, guid: 0a3c95589c30f56408f2077446e17e69, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ibl_brdf_lut
+    second: {fileID: 2800000, guid: dd33e64708ff79b40b139f9417d02a23, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: linterna_DefaultMaterial_BaseColor
+    second: {fileID: 2800000, guid: f5329838c29db29459d9bcef6a354997, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: linterna_DefaultMaterial_Metallic
+    second: {fileID: 2800000, guid: cf017b2934fa2084db48480f6a47954e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: linterna_DefaultMaterial_Normal
+    second: {fileID: 2800000, guid: 0515bbd9c227eaf47a1decdf0395a641, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: linterna_DefaultMaterial_Roughness
+    second: {fileID: 2800000, guid: c8f79b10b44ce4942ad2bf996c2375b8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: mameluco_Extract25_BaseColor
+    second: {fileID: 2800000, guid: 59e7c6f888b29d04099644f5b2f9139b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: mameluco_Extract25_Metallic
+    second: {fileID: 2800000, guid: 2a182c8f0538a2f4c96deccf66cdcc54, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: mameluco_Extract25_Normal
+    second: {fileID: 2800000, guid: 4886b99fd7ed0fc49bec9c0d383ab750, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: mameluco_Extract25_Roughness
+    second: {fileID: 2800000, guid: 314e25fc8b21d324fa3da87229dbf06f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: medidor 2_DefaultMaterial_BaseColor
+    second: {fileID: 2800000, guid: b45b1c728aed0f349a02a2ff19558019, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: medidor 2_DefaultMaterial_normal
+    second: {fileID: 2800000, guid: d9a06d7694f946f4ca2a9f2760b2b169, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: respirador_forzado_casco_BaseColor
+    second: {fileID: 2800000, guid: 56d1c0483a2b3ea40bf8a5137d281b5f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: respirador_forzado_casco_Metallic
+    second: {fileID: 2800000, guid: dbb75ce66f0c06d4fba71221af1ad506, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: respirador_forzado_casco_Normal
+    second: {fileID: 2800000, guid: aed6f715cce33fa4eb93cb9dff3bcb70, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: respirador_forzado_casco_Roughness
+    second: {fileID: 2800000, guid: 8092d0e7b4b68f7459bd01c736839890, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: tomatodo_DefaultMaterial_BaseColor
+    second: {fileID: 2800000, guid: 63d06b054012a6149a84185e5213a164, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: tomatodo_DefaultMaterial_Metallic
+    second: {fileID: 2800000, guid: e9650bfa6ee052b4ab02eb9e2679d6a9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: tomatodo_DefaultMaterial_Normal
+    second: {fileID: 2800000, guid: 810ba91bfa0891d43a04d865bedf4755, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: tomatodo_DefaultMaterial_Roughness
+    second: {fileID: 2800000, guid: 983bd60f776869b49a42116c40477abe, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: tubo_wire_113135006_BaseColor
+    second: {fileID: 2800000, guid: c0e48494b55de17479531f9ec30c0cca, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: tubo_wire_113135006_Normal
+    second: {fileID: 2800000, guid: 4b66e39f58a6a40459efe284b53e0cfe, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: tubo_wire_113135006_Roughness
+    second: {fileID: 2800000, guid: 6c7f70a4e328e8549a3c30ed0ccabda0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: walkie tokie_wire_008110135_BaseColor
+    second: {fileID: 2800000, guid: 9e4774df3c6e21040b4db2d707b0f0a0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: walkie tokie_wire_008110135_Metallic
+    second: {fileID: 2800000, guid: c5706b49523af1d498467615071afb66, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: walkie tokie_wire_008110135_Normal
+    second: {fileID: 2800000, guid: 39c5458d74564004e9cc15ba5b50d6c9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: walkie tokie_wire_008110135_Roughness
+    second: {fileID: 2800000, guid: d7a3a26c0bd4fe342ab328a929d6b346, type: 3}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.5
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 0.5
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
