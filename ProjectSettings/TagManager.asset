@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - boquilla
+  - warning
+  - PoloPositivo
+  - PoloNegativo
+  - Bloqueo
+  - Candado
+  - Tarjeta
+  - App
+  - Destornillador
+  - Gancho
+  - Lapicero
+  - Objeto
+  - Mono
+  - Tablero
+  - ToggleCasco
+  - ToggleLinterna
+  - ToggleGuantes
+  - ToggleGafas
+  - ToggleMono
+  - ToggleBotas
+  - ToggleArnes
+  - sensor
+  - gas_ducto
+  - ToggleRevision
+  - Casco
+  - TogglePlan
+  - ArnesDefectuoso
+  - Detect
+  - Epp/Cabeza
+  - Epp/Cara
+  - Epp/Ojos
+  - Epp/Oidos
+  - Epp/Respiratorio
+  - Epp/Ropa
+  - Epp/Guantes
+  - Epp/Botas
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Ground
+  - Grab
+  - Body
+  - GrabSec
+  - Colliders
+  - No Grab
+  - Snap
+  - GrapNoSnap
+  - NotOtherObj
+  - Grab Ignore Ray
+  - SecondGrabPoint
+  - SecondGrabPointValem
+  - NoFisicasNPCs
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

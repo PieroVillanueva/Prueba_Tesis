@@ -1,0 +1,22 @@
+# This .gitignore file should be placed at the root of your Unity project directory
+#
+# Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
+#
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+*.csproj
+*.sln
+.vsconfig
+/[Vv]s/
+.cache
+*.suo
+.vs/EIN-SimulacionVRCursos/v16/.suo
+.vs/EIN-SimulacionVRCursos/v16/Server/sqlite3/db.lock
+.vs/EIN-SimulacionVRCursos/v16/Server/sqlite3/storage.ide
+.vs/EIN-SimulacionVRCursos/v16/Server/sqlite3/storage.ide-shm
+.vs/EIN-SimulacionVRCursos/v16/Server/sqlite3/storage.ide-wal
