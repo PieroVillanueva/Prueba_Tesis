@@ -265,6 +265,41 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 5c0646a7bcc75614597db5d4548fc5ed, type: 2}
+    - target: {fileID: 4820295107405186896, guid: 6348987b83589c742af86a0f8a1cb42c,
+        type: 3}
+      propertyPath: m_OnSelectEntered.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4820295107405186896, guid: 6348987b83589c742af86a0f8a1cb42c,
+        type: 3}
+      propertyPath: m_OnSelectEntered.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4820295107405186896, guid: 6348987b83589c742af86a0f8a1cb42c,
+        type: 3}
+      propertyPath: m_OnSelectEntered.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 232761032}
+    - target: {fileID: 4820295107405186896, guid: 6348987b83589c742af86a0f8a1cb42c,
+        type: 3}
+      propertyPath: m_OnSelectEntered.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4820295107405186896, guid: 6348987b83589c742af86a0f8a1cb42c,
+        type: 3}
+      propertyPath: m_OnSelectEntered.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: agarrarExtintor
+      objectReference: {fileID: 0}
+    - target: {fileID: 4820295107405186896, guid: 6348987b83589c742af86a0f8a1cb42c,
+        type: 3}
+      propertyPath: m_OnSelectEntered.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4820295107405186896, guid: 6348987b83589c742af86a0f8a1cb42c,
+        type: 3}
+      propertyPath: m_OnSelectEntered.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 5157194600045187247, guid: 6348987b83589c742af86a0f8a1cb42c,
         type: 3}
       propertyPath: m_Name
@@ -582,6 +617,56 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
+--- !u!1 &232761030
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 232761031}
+  - component: {fileID: 232761032}
+  m_Layer: 0
+  m_Name: ManagerUsoExtintor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &232761031
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 232761030}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1707501428}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &232761032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 232761030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18850b98a379f5049a4822a682bc1d24, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agarroExtintorUnaVez: 0
+  reproductorAudios: {fileID: 1942219656}
+  listaAudios:
+  - {fileID: 8300000, guid: 0e99204e33d02af46af7b7f8fc595ac3, type: 3}
+  - {fileID: 8300000, guid: d0352893885b7cb41b051ff20453f25c, type: 3}
+  - {fileID: 8300000, guid: 1624cd629f0d9ea4d8ea43d1bc85d852, type: 3}
+  - {fileID: 8300000, guid: b08baff855bd8314ea97446854b837ef, type: 3}
 --- !u!1 &248416200
 GameObject:
   m_ObjectHideFlags: 0
@@ -731,25 +816,13 @@ MonoBehaviour:
   onTriggerEntered:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1942219656}
-        m_MethodName: set_clip
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 8300000, guid: 8ccfff0922b1fe94ba467b215e3ca481,
-            type: 3}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1942219656}
-        m_MethodName: Play
-        m_Mode: 1
+      - m_Target: {fileID: 232761032}
+        m_MethodName: reproducirAudio
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -1000,25 +1073,13 @@ MonoBehaviour:
   onTriggerEntered:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1942219656}
-        m_MethodName: set_clip
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 8300000, guid: 8ccfff0922b1fe94ba467b215e3ca481,
-            type: 3}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1942219656}
-        m_MethodName: Play
-        m_Mode: 1
+      - m_Target: {fileID: 232761032}
+        m_MethodName: reproducirAudio
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -1492,7 +1553,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 2c533ce7151fe2146b5c8efc485a4bc0, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.3
+  m_Volume: 0.111
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -5454,9 +5515,9 @@ MonoBehaviour:
   terminadoTarea:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1681869780}
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 232761032}
+        m_MethodName: llamarFinal
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -6357,6 +6418,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 818710345}
+  - {fileID: 232761031}
   - {fileID: 1942219655}
   m_Father: {fileID: 0}
   m_RootOrder: 4
@@ -7122,7 +7184,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1707501428}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &1942219656
 AudioSource:
