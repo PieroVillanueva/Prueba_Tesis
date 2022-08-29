@@ -80,7 +80,7 @@ public class S_Extinguisher : MonoBehaviour
     {
         Debug.Log("inicia disparo");
         //llamamos a una funcion repetitiva para accionar con el disparo con el gatillo.
-        while (isUsing && timeToUse<=60)
+        while (isUsing /*&& timeToUse<=60*/)
         {
             timeToUse += Time.deltaTime;
             if (smoke.isPlaying == false) 

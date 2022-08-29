@@ -93,7 +93,7 @@ public class FunManagerIntroExtintores : MonoBehaviour
         reproducirAudio(5);
         yield return new WaitForSeconds(12.50f);
         videos[2].SetActive(true);
-        yield return new WaitForSeconds(8.50f);             //FALTA DEFINIR TIEMPO
+        yield return new WaitForSeconds(110.50f);             //Supuesto Correcto
         videos[2].SetActive(false);
 
         //MANDAR CON LOS EXTINTORES
