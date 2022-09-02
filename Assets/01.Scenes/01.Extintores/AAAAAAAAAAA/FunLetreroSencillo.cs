@@ -25,4 +25,8 @@ public class FunLetreroSencillo : MonoBehaviour
             transform.LookAt(cameraMain.transform.position);
         }
     }
+    public void cambiarObjetivo(GameObject nuevoSeguido)
+    {
+        ObjetoSeguido = nuevoSeguido;
+    }
 }
