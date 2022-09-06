@@ -35,6 +35,7 @@ public class FunMultifunciones : MonoBehaviour
         presenciaDerecha = GameObject.Find("Right hand").GetComponentInChildren<HandPresence>();
         parteBrazoIzquierda = GameObject.Find("ParteBrazoIzquierda");
         parteBrazoDerecha = GameObject.Find("ParteBrazoDerecha");
+        //colocarMaterialGuantesManos();
     }
     public void ocultarManoDerecha(bool ocultar)
     {
@@ -132,6 +133,11 @@ public class FunMultifunciones : MonoBehaviour
         presenciaIzquierda.skin.material = materialGuantesPuestos;
         presenciaDerecha.skin.material = materialGuantesPuestos;
         activarPartesManos();
+    }
+    public void colocarMaterialGuantesManosSinPartes()
+    {
+        presenciaIzquierda.skin.material = materialGuantesPuestos;
+        presenciaDerecha.skin.material = materialGuantesPuestos;
     }
     public void quitarMaterialGuantesManos()
     {

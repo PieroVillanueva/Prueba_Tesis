@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: lentes
-  m_Shader: {fileID: -6465566751694194690, guid: d153ba2a63bdd1d4894bf44b156e1583,
+  m_Name: GuantesPVC 2
+  m_Shader: {fileID: -6465566751694194690, guid: a3cb95cf92d6b33499a4e07b6ce8920c,
     type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -25,7 +25,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: 9f7ac350abc802a4eb0d6fc5a6443e00, type: 3}
+        m_Texture: {fileID: 2800000, guid: d72f23ec7d836654cb5093641569b65e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
@@ -33,30 +33,34 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: f3246974cb12058429d717d6453a6f5d, type: 3}
+        m_Texture: {fileID: 2800000, guid: 419fa084899defc4aa14356707b19931, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
-        m_Texture: {fileID: 2800000, guid: 4bf3f9428b85bca42b45373cbc35f497, type: 3}
+        m_Texture: {fileID: 2800000, guid: 39b4ddda60a1887429d8d66c3e87b1b1, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - Vector1_BB848DB5: 5
     - _EMISSION: 0
-    - _Glossiness: 0.33
+    - _Glossiness: 0.18
     - _Metallic: 0
-    - _Opacity: 0.99
+    - _UseAoMap: 0
     - _UseColorMap: 1
     - _UseEmissiveMap: 0
     - _UseMetallicMap: 0
     - _UseNormalMap: 1
-    - _UseOpacityMap: 1
-    - _UseRoughnessMap: 1
+    - _UseRoughnessMap: 0
     m_Colors:
+    - Color_2F82BBDA: {r: 1, g: 1, b: 1, a: 0}
     - Color_8AE32172: {r: 0.42142352, g: 0.66612107, b: 2.5965128, a: 0}
     - _Color: {r: 0.12156863, g: 0.19215687, b: 0.7490196, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 0}

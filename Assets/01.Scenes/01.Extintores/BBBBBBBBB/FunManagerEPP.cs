@@ -8,7 +8,7 @@ public class FunManagerEPP : MonoBehaviour
     public bool[] equiposAgarrados;
 
     [Header("====Objetos====")] 
-    public OneHandInteractable[] epps;
+    public GameObject[] epps;
     public FunLetreroSencillo letrero;
    
     [Header("====Audio====")]
@@ -16,15 +16,16 @@ public class FunManagerEPP : MonoBehaviour
     public AudioClip[] audios;
 
     [Header("====Video====")]
-    public GameObject[] videosIntro;
-    public float[] tiemposDuracionIntro;
+    public GameObject videoIntro;
 
-    public GameObject[] videosObjetos;
-    public float[] tiemposDuracionObjetos;
+    [Header("====Imagenes====")]
+    public GameObject[] imagenes;
+    public AudioClip[] audiosEpp;
+    public float[] tiemposDuracionImagenes;
 
     [Header("====Final====")]
     public GameObject aroParaRotos;
-    public OneHandInteractable[] eppRotos;
+    public GameObject[] eppRotos;
 
     // Start is called before the first frame update
     void Start()
@@ -40,19 +41,28 @@ public class FunManagerEPP : MonoBehaviour
     IEnumerator inicial()
     {
         yield return new WaitForSeconds(3.0f);
-        //SE REPRODUCEN AUDIOS
+        reproducirClip(audios[0]);
+        yield return new WaitForSeconds(17.5f);
+        reproducirClip(audios[1]);
+        yield return new WaitForSeconds(3.5f);
+        //REPRODUCIR VIDEO
+        videoIntro.SetActive(true);
+        yield return new WaitForSeconds(138.00f);//134 + 4
+        //yield return new WaitForSeconds(3.00f);//version corta
+        videoIntro.SetActive(false);
+        reproducirClip(audios[2]);
+        yield return new WaitForSeconds(21.0f);
+
         letrero.gameObject.SetActive(true);
-        epps[0].enabled=true;
+        epps[0].GetComponent<BoxCollider>().enabled = true;
+        epps[0].GetComponent<Rigidbody>().isKinematic = false;
     }
-    IEnumerator reproducirVideo(int pos)
+
+    public void reproducirClip(AudioClip clip)
     {
-        videosIntro[pos].SetActive(true);
-        yield return new WaitForSeconds(tiemposDuracionIntro[pos] + 3.00f);
-        videosIntro[pos].SetActive(false);
+        reproductor.clip = clip;
+        reproductor.Play();
     }
-
-
-
     public void agarrarEPP(int pos)
     {
         if (!equiposAgarrados[pos])
@@ -65,34 +75,40 @@ public class FunManagerEPP : MonoBehaviour
     {
         letrero.gameObject.SetActive(false); //Desactiva Letrero
 
-        videosObjetos[pos].SetActive(true); //Muestra video
-
-        yield return new WaitForSeconds(tiemposDuracionObjetos[pos] +3.00f); //Espera termina video
-        videosObjetos[pos].SetActive(false); //Oculta video
+        imagenes[pos].SetActive(true); //Muestra imagen
+        reproducirClip(audiosEpp[pos]);
+        yield return new WaitForSeconds(tiemposDuracionImagenes[pos]+0.3f); //Espera termina audio
+        imagenes[pos].SetActive(false); //Oculta imagen
 
         if (pos!=cantidadEpp-1) //EN CASO NO SEA EL ULTIMO
         {
-            letrero.cambiarObjetivo(epps[pos + 1].gameObject); //Cambias objetivo Letrero
+            letrero.cambiarObjetivo(epps[pos + 1]); //Cambias objetivo Letrero
             letrero.gameObject.SetActive(true); //Activar letrero
 
-            epps[pos + 1].enabled = true;//Activar agarrar otro Objeto
+            //epps[pos + 1].enabled = true;//Activar agarrar otro Objeto
+            epps[pos + 1].GetComponent<BoxCollider>().enabled = true;
+            epps[pos + 1].GetComponent<Rigidbody>().isKinematic = false;
         }
         else //EN CASO SEA EL ULTIMO
         {
             aroParaRotos.SetActive(true);
             for (int i = 0; i < eppRotos.Length; i++)
             {
-                eppRotos[i].enabled = true;
+                eppRotos[i].GetComponent<BoxCollider>().enabled = true;
+                eppRotos[i].GetComponent<Rigidbody>().isKinematic = false;
             }
         }
     }
     public void tocarAroRoto() => StartCoroutine(tocaAroRoto());
     IEnumerator tocaAroRoto()
     {
-        videosObjetos[7].SetActive(true); //Muestra video
-        yield return new WaitForSeconds(tiemposDuracionObjetos[7] + 3.00f); //Espera termina video
-        videosObjetos[7].SetActive(false); //Oculta video
-        //Reproduce audio y cambia escenario
+        imagenes[7].SetActive(true); //Muestra imagen
+        reproducirClip(audiosEpp[7]);
+        yield return new WaitForSeconds(tiemposDuracionImagenes[7] + 0.3f); //Espera termina audio
+        imagenes[7].SetActive(false); //Oculta imagen
+
+        reproducirClip(audios[2]);
+        //Cambia escenario
         //Debug.Log("YASTA");
     }
 
