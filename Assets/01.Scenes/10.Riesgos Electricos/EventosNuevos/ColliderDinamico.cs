@@ -53,5 +53,9 @@ public class ColliderDinamico : MonoBehaviour
             onTriggerStayed?.Invoke();
         }
     }
+    public void reiniciarPrimeraVez()
+    {
+        primeraVez = false;
+    }
     
 }

@@ -5310,7 +5310,7 @@ GameObject:
   - component: {fileID: 469032738}
   - component: {fileID: 469032737}
   - component: {fileID: 469032736}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: EPP_BotasDeJebe
   m_TagString: Epp/Botas
   m_Icon: {fileID: 0}
