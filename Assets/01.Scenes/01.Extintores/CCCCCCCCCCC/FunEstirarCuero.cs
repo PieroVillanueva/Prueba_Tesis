@@ -1,9 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.Events;
 public class FunEstirarCuero : MonoBehaviour
 {
+    [SerializeField] private UnityEvent OnAplanarAmbosLados = new UnityEvent();
     [Header("Validaciones")]
     public bool derecha;
     public bool izquierda;
@@ -33,6 +34,7 @@ public class FunEstirarCuero : MonoBehaviour
         if (derecha && izquierda)
         {
             modelo_Ambos.SetActive(true);
+            OnAplanarAmbosLados?.Invoke();
             return;
         }
         if (derecha)
