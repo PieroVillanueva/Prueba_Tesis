@@ -4,18 +4,22 @@ using UnityEngine;
 
 public class FunManagerSecadoAlVacio : MonoBehaviour
 {
+    [Header("Accidente")]
+    public Movement personaje;
+    public GameObject nuevaPos;
+    public GameObject esferaAccidente;
+    public S_ControlEffect manoDerecha;
+    public S_ControlEffect manoIzquierda;
+
     [Header("Validacion Epps")]
     public bool[] eppsColocados;
     public bool todosEPPColocados;
 
     [Header("Audios")]
     public AudioSource reproductor;
-    public AudioClip audioAccidente;
+    public AudioClip[] audiosAccidentes;
+    public AudioClip audioGrito;
     public AudioClip[] audiosSecuencia;
-
-    [Header("Validaciones")]
-    //public bool confirmoExtintor;
-    //public bool selimpio;
 
     [Header("Objetos Secuencia")]
     public GameObject letreroAplastamiento;
@@ -84,34 +88,58 @@ public class FunManagerSecadoAlVacio : MonoBehaviour
             }
         }
     }
-    public void colocarEppRoto()
+    public void colocarEppRoto() => StartCoroutine(accidente(true));
+    public void aplastamientoManos() => StartCoroutine(accidente(false));
+    IEnumerator accidente(bool esPorEpp)
     {
-        //AUDIO EPP ROTO
+        personaje.Velocidad(0);
+        if (esPorEpp) {
+            manoDerecha.VibracionPersonalizada(0.3f);
+            manoIzquierda.VibracionPersonalizada(0.3f);
+        }
+        else //Si es por aplastamiento
+        {
+            manoDerecha.VibracionPersonalizada(0.6f);
+            manoIzquierda.VibracionPersonalizada(0.6f);
+        }
+        reproductor.clip = audioGrito;
+        reproductor.Play();
+        esferaAccidente.SetActive(true);
+
+        yield return new WaitForSeconds(2.0f);
+        if (esPorEpp) 
+        {
+            reproductor.clip = audiosAccidentes[0];
+        }
+        else //Si es por aplastamiento
+        {
+            reproductor.clip = audiosAccidentes[2];
+        }
+        reproductor.Play();
+        personaje.llamarTransitionIn();
+        yield return new WaitForSeconds(1.0f);
+        personaje.gameObject.transform.position = nuevaPos.transform.position;
+
+        if (!esPorEpp)//Si es por aplastamiento
+        {
+            personaje.gameObject.transform.Rotate(new Vector3(0, 1, 0), 90);
+        }
+
+        yield return new WaitForSeconds(1.0f);
+        esferaAccidente.SetActive(false);
+        personaje.llamarTransitionOut();
+        //reproducir audio reintentalo 
+
+        //REINICIAR AUTOMATICO
     }
+
+
     public void activarEPPs()
     {
         for (int i = 0; i < epps.Length; i++)
         {
             epps[i].GetComponent<BoxCollider>().enabled = true;
             epps[i].GetComponent<Rigidbody>().isKinematic = false;
-        }
-    }
-    public void llamarActivarTrabajoMaquina() => StartCoroutine(activarObjetosParaTrabajoMaquina());
-
-    IEnumerator activarObjetosParaTrabajoMaquina()
-    {
-        yield return new WaitForSeconds(10f);
-    }
-    public void aplanarCuero(int numeroCuero)
-    {
-        switch (numeroCuero)
-        {
-            case 0:
-
-                break;
-            case 1:
-
-                break;
         }
     }
 

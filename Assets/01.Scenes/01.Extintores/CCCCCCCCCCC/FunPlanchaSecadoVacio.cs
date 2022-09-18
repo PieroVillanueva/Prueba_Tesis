@@ -8,11 +8,13 @@ public class FunPlanchaSecadoVacio : MonoBehaviour
     public float alturaMaxima;
     public float altura;
     public bool movimiento=true;
+    public BoxCollider colision;
+    public GameObject aviso;
 
     // Start is called before the first frame update
     void Start()
     {
-        /**/
+        /**/       
         if (movimiento)
         {
             llamarBajar();
@@ -44,8 +46,10 @@ public class FunPlanchaSecadoVacio : MonoBehaviour
 
     IEnumerator mover(bool arriba)
     {
+        colision.enabled = !arriba; //si esta bajando se activará la colision sino no
+        aviso.SetActive(!arriba);//si esta bajando se activará la imagen
         float nuevoY = 0;
-        for (int i = 0; i < 200; i++)
+        while(true)
         {
             yield return new WaitForSeconds(0.01f);
             if (arriba)
@@ -58,10 +62,12 @@ public class FunPlanchaSecadoVacio : MonoBehaviour
             }
             nuevoY = Mathf.Clamp(nuevoY, alturaMinima, alturaMaxima);
             gameObject.transform.localPosition = new Vector3(gameObject.transform.localPosition.x, nuevoY, gameObject.transform.localPosition.z);
-            if (nuevoY == alturaMinima || nuevoY == alturaMaxima)
+            if (nuevoY <= alturaMinima || nuevoY >= alturaMaxima)
             {
                 break;
             }
         }
+        colision.enabled = false;
+        aviso.SetActive(false);
     }
 }
