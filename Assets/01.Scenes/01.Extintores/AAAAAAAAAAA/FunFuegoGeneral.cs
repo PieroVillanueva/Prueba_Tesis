@@ -4,7 +4,8 @@ using UnityEngine;
 using UnityEngine.Events;
 public class FunFuegoGeneral : MonoBehaviour
 {
-    public S_FireControl[] fireChild;
+    // public S_FireControl[] fireChild;
+    public FunFuegoIndividual[] fireChild;
     public AudioSource fireSound;
     public SphereCollider warningZone;
     public float totalFlames = 4;
@@ -18,7 +19,8 @@ public class FunFuegoGeneral : MonoBehaviour
     void Start()
     {
         //managerLvl = GameObject.Find("GAMEMANAGER").GetComponent<GameManager>();
-        fireChild = GetComponentsInChildren<S_FireControl>();
+        //fireChild = GetComponentsInChildren<S_FireControl>();
+        fireChild = GetComponentsInChildren<FunFuegoIndividual>();
         fireSound.Play();
     }
 

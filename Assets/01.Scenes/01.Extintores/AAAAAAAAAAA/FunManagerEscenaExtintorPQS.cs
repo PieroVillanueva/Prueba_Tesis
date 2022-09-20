@@ -10,7 +10,7 @@ public class FunManagerEscenaExtintorPQS : MonoBehaviour
     public BoxCollider[] colliders;
     void Start()
     {
-        //solicitarExtintores();
+        solicitarExtintores();
     }
 
     // Update is called once per frame

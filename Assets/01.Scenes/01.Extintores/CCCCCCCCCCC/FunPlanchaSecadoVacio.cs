@@ -18,7 +18,7 @@ public class FunPlanchaSecadoVacio : MonoBehaviour
         if (movimiento)
         {
             llamarBajar();
-            StartCoroutine(a());
+            //StartCoroutine(a());
         }
        
     }
@@ -54,11 +54,11 @@ public class FunPlanchaSecadoVacio : MonoBehaviour
             yield return new WaitForSeconds(0.01f);
             if (arriba)
             {
-                nuevoY = gameObject.transform.localPosition.y + 0.01f;
+                nuevoY = gameObject.transform.localPosition.y + 0.0018f;
             }
             else
             {
-                nuevoY = gameObject.transform.localPosition.y - 0.01f;
+                nuevoY = gameObject.transform.localPosition.y - 0.0018f;
             }
             nuevoY = Mathf.Clamp(nuevoY, alturaMinima, alturaMaxima);
             gameObject.transform.localPosition = new Vector3(gameObject.transform.localPosition.x, nuevoY, gameObject.transform.localPosition.z);

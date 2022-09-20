@@ -4,6 +4,14 @@ using UnityEngine;
 using UnityEngine.UI;
 public class FunManagerIntroExtintores : MonoBehaviour
 {
+    [Header("Indicadores")]
+    public GameObject l_agarraExtitor;
+    public GameObject l_agarraSiguiente1;
+    public GameObject l_agarraSiguiente2;
+    [Header("NPC")]
+    public AgentNavMesh agente;
+    public Transform destino;
+
     [Header("Audios")]
     public AudioSource reproductorAudios;
     public AudioClip[] listaAudios;
@@ -19,17 +27,20 @@ public class FunManagerIntroExtintores : MonoBehaviour
     [Header("Validacion Extintores")]
     public bool[] extintoresTocados;
     public bool todosLosExtintoresTocados;
+
     // Start is called before the first frame update
     void Start()
     {
         StartCoroutine(inicial());
+       
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        mover();
     }
+
     private bool validarArreglo(bool[] arreglo)
     {
         for (int i = 0; i < arreglo.Length; i++)
@@ -54,7 +65,7 @@ public class FunManagerIntroExtintores : MonoBehaviour
 
     IEnumerator final()
     {
-        yield return new WaitForSeconds(3.00f);
+        yield return new WaitForSeconds(23.00f);
         reproducirAudio(7);
         yield return new WaitForSeconds(10.00f);
         //MANDAR A VOLAR
@@ -93,12 +104,12 @@ public class FunManagerIntroExtintores : MonoBehaviour
         reproducirAudio(5);
         yield return new WaitForSeconds(12.50f);
         videos[2].SetActive(true);
-        yield return new WaitForSeconds(110.50f);             //Supuesto Correcto
+        yield return new WaitForSeconds(115.50f);             //Supuesto Correcto
         videos[2].SetActive(false);
 
         //MANDAR CON LOS EXTINTORES
         reproducirAudio(6);
-
+        l_agarraExtitor.SetActive(true);
         activarOpcionExtintor(0);
     }
     public void activarOpcionExtintor(int numero) => StartCoroutine(activarExtintor(numero));
@@ -112,9 +123,12 @@ public class FunManagerIntroExtintores : MonoBehaviour
                 break;
             case 1:
                 yield return new WaitForSeconds(15.00f);
+                l_agarraSiguiente1.SetActive(true);
                 break;
             case 2:
+                l_agarraSiguiente1.SetActive(false);
                 yield return new WaitForSeconds(18.00f);
+                l_agarraSiguiente2.SetActive(true);
                 break;
         }
         collidersExtintores[numero].enabled = true;
@@ -122,12 +136,20 @@ public class FunManagerIntroExtintores : MonoBehaviour
 
     }
 
-
     public void reproducirAudio(int pos)
     {        
         reproductorAudios.clip = listaAudios[pos];
         reproductorAudios.Play();
+        agente.UseLipsync();
     }
+
+    public void mover()
+    {
+        if (destino != null) { 
+            agente.agent.destination=destino.position;
+        }
+    }
+
     public void reproducirVideo(int pos)
     {
         reproductorAudios.clip = listaAudios[pos];
