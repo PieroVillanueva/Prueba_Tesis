@@ -99,7 +99,7 @@ LightmapSettings:
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 112000000, guid: 18f9b0ae74c502444a9dae74b1b3bd23,
     type: 2}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -1148,6 +1148,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48daf0d49e264e948a6edd77575d824e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  usuario: {fileID: 1760805305}
+  siguienteEscenario: 1
   l_agarraExtitor: {fileID: 601185437}
   l_agarraSiguiente1: {fileID: 1252598752}
   l_agarraSiguiente2: {fileID: 827799677}
@@ -7812,6 +7814,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 827799677}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onTriggerExited:
     m_PersistentCalls:
       m_Calls: []
@@ -9172,6 +9185,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d64de38f7990e4c4ea1a262b6d11da4c, type: 3}
+--- !u!114 &1760805305 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5305871248969304109, guid: d64de38f7990e4c4ea1a262b6d11da4c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1760805304}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f298b9bf18c37524dbcba1ec49360481, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1767543652
 GameObject:
   m_ObjectHideFlags: 0

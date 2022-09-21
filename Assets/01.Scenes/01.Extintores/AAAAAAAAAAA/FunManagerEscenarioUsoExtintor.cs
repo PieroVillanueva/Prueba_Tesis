@@ -4,6 +4,8 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class FunManagerEscenarioUsoExtintor : MonoBehaviour
 {
+    public Movement usuario;
+    public int siguienteEscenario;
     public bool agarroExtintorUnaVez;
     [Header("Audios")]
     public AudioSource reproductorAudios;
@@ -32,7 +34,16 @@ public class FunManagerEscenarioUsoExtintor : MonoBehaviour
         yield return new WaitForSeconds(2.00f);
         reproducirAudio(3);
         Debug.Log("CambiarEscenario");
+
+        yield return new WaitForSeconds(6.00f);
+        usuario.llamarTransitionIn();
         yield return new WaitForSeconds(2.00f);
+        if (siguienteEscenario != -1)
+        {
+            SceneManager.LoadScene(siguienteEscenario);
+        }
+        
+
         //CAMBIAR ESCENARIO
     }
     public void agarrarExtintor()

@@ -5,16 +5,16 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/01.Scenes/01.Extintores/AAAAAAAAAAA/Intro_Extintores.unity
     guid: 8f8333d95b6c46648b0c3ce2c02f6aff
-  - enabled: 0
+  - enabled: 1
     path: Assets/01.Scenes/01.Extintores/AAAAAAAAAAA/Extintores_01_Estacionamiento.unity
     guid: 664afa332131ebd43bb207648df3572a
-  - enabled: 0
+  - enabled: 1
     path: Assets/01.Scenes/01.Extintores/AAAAAAAAAAA/Extintores_02_Electrico.unity
     guid: 5e6f2372a1eaa0147a30a197c77d77e3
-  - enabled: 0
+  - enabled: 1
     path: Assets/01.Scenes/01.Extintores/AAAAAAAAAAA/Extintores_03_Oficina.unity
     guid: 57643143135b3bb4a9f95303db66d0a5
   m_configObjects:

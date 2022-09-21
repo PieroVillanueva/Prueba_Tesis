@@ -981,6 +981,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18850b98a379f5049a4822a682bc1d24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  usuario: {fileID: 2025008647}
+  siguienteEscenario: 2
   agarroExtintorUnaVez: 0
   reproductorAudios: {fileID: 1942219656}
   listaAudios:
@@ -9377,6 +9379,18 @@ Camera:
     type: 3}
   m_PrefabInstance: {fileID: 2025008645}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2025008647 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5305871248969304109, guid: d64de38f7990e4c4ea1a262b6d11da4c,
+    type: 3}
+  m_PrefabInstance: {fileID: 2025008645}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f298b9bf18c37524dbcba1ec49360481, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2044589030
 GameObject:
   m_ObjectHideFlags: 0

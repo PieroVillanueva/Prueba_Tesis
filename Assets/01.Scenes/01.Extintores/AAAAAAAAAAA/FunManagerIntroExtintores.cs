@@ -2,8 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 public class FunManagerIntroExtintores : MonoBehaviour
 {
+    public Movement usuario;
+    public int siguienteEscenario;
     [Header("Indicadores")]
     public GameObject l_agarraExtitor;
     public GameObject l_agarraSiguiente1;
@@ -65,11 +68,16 @@ public class FunManagerIntroExtintores : MonoBehaviour
 
     IEnumerator final()
     {
-        yield return new WaitForSeconds(23.00f);
+        yield return new WaitForSeconds(17.50f);
+        videos[5].SetActive(false);
         reproducirAudio(7);
         yield return new WaitForSeconds(10.00f);
         //MANDAR A VOLAR
         Debug.Log("MANDALO AL LOBBY");
+        usuario.llamarTransitionIn();
+        yield return new WaitForSeconds(2.00f);
+        SceneManager.LoadScene(siguienteEscenario);
+        
     }
 
     IEnumerator inicial()
@@ -90,21 +98,21 @@ public class FunManagerIntroExtintores : MonoBehaviour
         reproducirAudio(3);
         yield return new WaitForSeconds(5.70f);
         videos[0].SetActive(true);
-        yield return new WaitForSeconds(18.00f);
+        yield return new WaitForSeconds(15.30f);
         videos[0].SetActive(false);
 
         //MOSTRAR VIDEO COMO USAR EXTINTOR
         reproducirAudio(4);
         yield return new WaitForSeconds(5.70f);
         videos[1].SetActive(true);
-        yield return new WaitForSeconds(63.00f);
+        yield return new WaitForSeconds(59.50f);
         videos[1].SetActive(false);
 
         //MOSTRAR VIDEO TIPOS DE FUEGO
         reproducirAudio(5);
         yield return new WaitForSeconds(12.50f);
         videos[2].SetActive(true);
-        yield return new WaitForSeconds(115.50f);             //Supuesto Correcto
+        yield return new WaitForSeconds(110.50f);           
         videos[2].SetActive(false);
 
         //MANDAR CON LOS EXTINTORES
@@ -122,12 +130,14 @@ public class FunManagerIntroExtintores : MonoBehaviour
                 yield return new WaitForSeconds(3.0f);
                 break;
             case 1:
-                yield return new WaitForSeconds(15.00f);
+                yield return new WaitForSeconds(12.50f);
+                videos[3].SetActive(false);
                 l_agarraSiguiente1.SetActive(true);
                 break;
             case 2:
                 l_agarraSiguiente1.SetActive(false);
-                yield return new WaitForSeconds(18.00f);
+                yield return new WaitForSeconds(15.50f);
+                videos[4].SetActive(false);
                 l_agarraSiguiente2.SetActive(true);
                 break;
         }

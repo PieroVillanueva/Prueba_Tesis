@@ -23,8 +23,9 @@ public class VidoeController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        heightsMax = imgPanel.rectTransform.sizeDelta.y;
-        imgPanel.rectTransform.sizeDelta = new Vector2(imgPanel.rectTransform.sizeDelta.x, 0);
+        imgPanel.color = Color.white;
+        // heightsMax = imgPanel.rectTransform.sizeDelta.y;                                                                          //comentado piero
+        // imgPanel.rectTransform.sizeDelta = new Vector2(imgPanel.rectTransform.sizeDelta.x, 0);                                   //comentado piero
         StartCoroutine(CorreVideo());
     }
 
@@ -54,7 +55,7 @@ public class VidoeController : MonoBehaviour
             yield return new WaitForFixedUpdate();
         }
         yield return new WaitForSeconds(0.5f);
-        StartCoroutine(ClosePanel());
+        //StartCoroutine(ClosePanel());
     }
 
     // Update is called once per frame
@@ -62,7 +63,8 @@ public class VidoeController : MonoBehaviour
     {
         isActive = true;
         ready2Play = false;
-
+        yield return new WaitForFixedUpdate();                                                                                           //agregado piero
+        /*
         yield return new WaitForSeconds(0.5f);
         float h = 0;
         while (imgPanel.rectTransform.sizeDelta.y != heightsMax)
@@ -73,14 +75,15 @@ public class VidoeController : MonoBehaviour
         }
         
         imgPanel.rectTransform.sizeDelta = new Vector2(imgPanel.rectTransform.sizeDelta.x, heightsMax);
-
+        /*
+        /*
         float color = 0;
         while (imgPanel.color != Color.white)
         {
             color = Mathf.MoveTowards(color, 1, 1.5f * Time.deltaTime);
             imgPanel.color = new Color(color, color, color);
             yield return new WaitForFixedUpdate();
-        }
+        }*/
         Debug.Log("END");
         ready2Play = true;
     }

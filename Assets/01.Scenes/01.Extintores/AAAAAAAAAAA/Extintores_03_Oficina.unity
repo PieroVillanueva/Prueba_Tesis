@@ -705,6 +705,18 @@ Camera:
     type: 3}
   m_PrefabInstance: {fileID: 107719139}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &107719141 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5305871248969304109, guid: d64de38f7990e4c4ea1a262b6d11da4c,
+    type: 3}
+  m_PrefabInstance: {fileID: 107719139}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f298b9bf18c37524dbcba1ec49360481, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &119345197 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4359931816021897392, guid: 40726358cd20f02438d88728ad712c73,
@@ -8498,6 +8510,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18850b98a379f5049a4822a682bc1d24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  usuario: {fileID: 107719141}
+  siguienteEscenario: 0
   agarroExtintorUnaVez: 0
   reproductorAudios: {fileID: 531223503}
   listaAudios:
