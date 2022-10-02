@@ -1,9 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class FunManagerEPP : MonoBehaviour
 {
+    public int siguienteEscena;
+
     public int cantidadEpp;
     public bool[] equiposAgarrados;
 
@@ -27,6 +29,8 @@ public class FunManagerEPP : MonoBehaviour
     public GameObject aroParaRotos;
     public GameObject[] eppRotos;
 
+    [Header("====Indicador====")]
+    public GameObject[] indicadores;
     // Start is called before the first frame update
     void Start()
     {
@@ -79,9 +83,10 @@ public class FunManagerEPP : MonoBehaviour
         reproducirClip(audiosEpp[pos]);
         yield return new WaitForSeconds(tiemposDuracionImagenes[pos]+0.3f); //Espera termina audio
         imagenes[pos].SetActive(false); //Oculta imagen
-
+        
         if (pos!=cantidadEpp-1) //EN CASO NO SEA EL ULTIMO
         {
+            indicadores[pos].SetActive(true);//Se activa el indicador
             letrero.cambiarObjetivo(epps[pos + 1]); //Cambias objetivo Letrero
             letrero.gameObject.SetActive(true); //Activar letrero
 
@@ -107,9 +112,10 @@ public class FunManagerEPP : MonoBehaviour
         yield return new WaitForSeconds(tiemposDuracionImagenes[7] + 0.3f); //Espera termina audio
         imagenes[7].SetActive(false); //Oculta imagen
 
-        reproducirClip(audios[2]);
+        reproducirClip(audios[3]);
+        yield return new WaitForSeconds(audios[3].length + 2.0f);
         //Cambia escenario
-        //Debug.Log("YASTA");
+        SceneManager.LoadScene(siguienteEscena);
     }
 
 }

@@ -6,8 +6,10 @@ public class FunManagerColocarEPPSecado : MonoBehaviour
 {
     public int escenaSiguiente;
     public bool reproduciendoAudio;
-    public bool espacioActivado;
+    public bool espacioDesactivado;
     public GameObject letreroEscenario;
+
+    public GameObject indicador;
 
     [Header("Audios")]
     public AudioSource reproductor;
@@ -24,7 +26,7 @@ public class FunManagerColocarEPPSecado : MonoBehaviour
     void Start()
     {
         StartCoroutine(inicio());
-        espacioActivado = true; //PARA QUE NO PUEDAS colocarte ninguno
+        espacioDesactivado = true; //PARA QUE NO PUEDAS colocarte ninguno
     }
 
     // Update is called once per frame
@@ -74,19 +76,26 @@ public class FunManagerColocarEPPSecado : MonoBehaviour
         reproductor.clip = audiosSecuencia[2];
         reproductor.Play();
         yield return new WaitForSeconds(12.4f);
-        espacioActivado = false; //ya se pueden colocar
+        espacioDesactivado = false; //ya se pueden colocar
+        indicador.SetActive(true);
     }
 
     IEnumerator final()
     {
+        yield return new WaitForSeconds(2.01f);
         while (reproduciendoAudio)
         {
-            yield return new WaitForSeconds(0.01f);
+            yield return new WaitForSeconds(0.1f);
         }
+        yield return new WaitForSeconds(0.2f);
         reproductor.clip = audiosSecuencia[3];
         reproductor.Play();
+        yield return new WaitForSeconds(audiosSecuencia[3].length+2.00f);
         //MANDAR A OTRA ESCENA
-        //SceneManager.LoadScene(escenaSiguiente);
+        if (escenaSiguiente >= 0)
+        {
+            SceneManager.LoadScene(escenaSiguiente);
+        }        
     }
 
     public void llamarActivarEspacioMomentaneo(GameObject espacio)
@@ -95,14 +104,14 @@ public class FunManagerColocarEPPSecado : MonoBehaviour
     }
     IEnumerator activarEspacioMomentaneo(GameObject espacio)
     {
-        if (!reproduciendoAudio && !espacioActivado)
+        if (!reproduciendoAudio && !espacioDesactivado)
         {
-            espacioActivado = true;
+            espacioDesactivado = true;
             yield return new WaitForSeconds(0.01f);
             espacio.SetActive(true);
             yield return new WaitForSeconds(2f);
             espacio.SetActive(false);
-            espacioActivado = false;
+            espacioDesactivado = false;
         }
        
     }

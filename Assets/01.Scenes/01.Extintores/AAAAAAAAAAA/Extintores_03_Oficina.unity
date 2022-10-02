@@ -8511,7 +8511,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   usuario: {fileID: 107719141}
-  siguienteEscenario: 0
+  siguienteEscenario: 5
   agarroExtintorUnaVez: 0
   reproductorAudios: {fileID: 531223503}
   listaAudios:
