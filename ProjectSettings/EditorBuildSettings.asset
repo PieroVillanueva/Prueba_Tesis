@@ -29,6 +29,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/01.Scenes/01.Extintores/BBBBBBBBB/Epps de Pelambre.unity
     guid: 3c914448f6248674baa6782b02483e3b
+  - enabled: 1
+    path: Assets/01.Scenes/01.Extintores/DDDDDDDDDD/Riesgos Generales.unity
+    guid: bea8d6a0aeb01794c85943f6b6609520
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: a6269f319a6ff0940855444fc1433387,
       type: 2}

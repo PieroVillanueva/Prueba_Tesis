@@ -1,0 +1,252 @@
+fileFormatVersion: 2
+guid: e2134fc64627e7f4a9f7e7801a564658
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Cubemap
+      assembly: UnityEngine.CoreModule
+      name: diffuse_cube
+    second: {fileID: 8900000, guid: b0a52f32b7e6e2743bebd8289e3894fc, type: 3}
+  - first:
+      type: UnityEngine:Cubemap
+      assembly: UnityEngine.CoreModule
+      name: specular_cube
+    second: {fileID: 8900000, guid: 79140b8013d06ad4996bed843c4ef5df, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: botal_curtiembre_base_cilindro_AO
+    second: {fileID: 2800000, guid: 62de73c72af11224caff230281d73b1c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: botal_curtiembre_base_cilindro_BaseColor
+    second: {fileID: 2800000, guid: da394cede8fa04748ba68185d461029f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: botal_curtiembre_base_cilindro_Metallic
+    second: {fileID: 2800000, guid: 3c6923c3bab606d40bd5105a201639c6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: botal_curtiembre_base_cilindro_Normal
+    second: {fileID: 2800000, guid: e1c182b84680bf843bf46ce24439d7a4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: botal_curtiembre_base_cilindro_Roughness
+    second: {fileID: 2800000, guid: bd9b8415901e53146a004d0f86564f30, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: botal_curtiembre_cilindro_cables_AO
+    second: {fileID: 2800000, guid: 91f3cf0974e21db489b11ccaeae8f774, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: botal_curtiembre_cilindro_cables_BaseColor
+    second: {fileID: 2800000, guid: c75f898ca53546144a5395dcd1815c8a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: botal_curtiembre_cilindro_cables_Metallic
+    second: {fileID: 2800000, guid: 79ce3558fd0919b4795e17e96982a60d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: botal_curtiembre_cilindro_cables_Normal
+    second: {fileID: 2800000, guid: 38ccbc109f43db748834b012dff46601, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: botal_curtiembre_cilindro_cables_Roughness
+    second: {fileID: 2800000, guid: d476fba9266089c478d89ee17ad1c68d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: botal_curtiembre_cilindro_piezas_AO
+    second: {fileID: 2800000, guid: 158e7bd7d2a9f22409739c072b2da4d8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: botal_curtiembre_cilindro_piezas_BaseColor
+    second: {fileID: 2800000, guid: f33e84682d905554db083850c5683548, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: botal_curtiembre_cilindro_piezas_Metallic
+    second: {fileID: 2800000, guid: e91b8c23e7b34c1408240c2917cc78fe, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: botal_curtiembre_cilindro_piezas_Normal
+    second: {fileID: 2800000, guid: 059aaf1412f01d5488d71d65c0a78bc8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: botal_curtiembre_cilindro_piezas_Roughness
+    second: {fileID: 2800000, guid: 0c9e96241eee32c49ac32d42f1b48f19, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: botal_curtiembre_escaleras_base metalica_AO
+    second: {fileID: 2800000, guid: bb384905055891349b6a5a11aee1e857, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: botal_curtiembre_escaleras_base metalica_BaseColor
+    second: {fileID: 2800000, guid: 69aeab40f1d55c643ad6207ae323ae05, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: botal_curtiembre_escaleras_base metalica_Normal
+    second: {fileID: 2800000, guid: 38eafb9c9d001f14189c6d9e076db70e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: botal_curtiembre_escaleras_base metalica_Roughness
+    second: {fileID: 2800000, guid: 43100f3a4e2b8004f8ca9e1d609358f4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: botal_curtiembre_panel_control_AO
+    second: {fileID: 2800000, guid: 7f7de7ee25d93cb4da7906e216325329, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: botal_curtiembre_panel_control_BaseColor
+    second: {fileID: 2800000, guid: edfd21d098005bc439c5dbc52df989c8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: botal_curtiembre_panel_control_Metallic
+    second: {fileID: 2800000, guid: 38abae94c7760ff4296d868f7da94e72, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: botal_curtiembre_panel_control_Normal
+    second: {fileID: 2800000, guid: 20872bcff8d46fa4bac90f7abdc654d1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: botal_curtiembre_puertas_AO
+    second: {fileID: 2800000, guid: 61e7cbc2d2c11ed458d766e4a91ed5b4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: botal_curtiembre_puertas_BaseColor
+    second: {fileID: 2800000, guid: c2d9a4b21041abf42b1fb633af18ed3b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: botal_curtiembre_puertas_Metallic
+    second: {fileID: 2800000, guid: 8a46126e131b4a44c87af86945686719, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: botal_curtiembre_puertas_Normal
+    second: {fileID: 2800000, guid: 8b34f496c94f56b408bccd7544bb68f7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: botal_curtiembre_puertas_Roughness
+    second: {fileID: 2800000, guid: 83725723ec6dc2d41bc763a4709cee73, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ibl_brdf_lut
+    second: {fileID: 2800000, guid: dc29df39246e2fa4faeafc1e802e03c6, type: 3}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,9 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class FunManagerRiesgosGenerales : MonoBehaviour
 {
+    public int siguienteEscena;
+    public Movement personaje;
+    public GameObject nuevaPos;
+
     [Header("Gifs")]
     public GameObject gif;
 
@@ -22,6 +26,7 @@ public class FunManagerRiesgosGenerales : MonoBehaviour
     void Start()
     {
         llamarEmpezarTarea(0);
+        
     }
 
     // Update is called once per frame
@@ -41,14 +46,14 @@ public class FunManagerRiesgosGenerales : MonoBehaviour
         {
             case 0://Inicial
                 yield return new WaitForSeconds(3f);
+                gif.SetActive(true);
                 reproducirAudio(0);
                 yield return new WaitForSeconds(audiosSecuencia[0].length+0.4f);
-
-                gif.SetActive(true);
-                reproducirAudio(1);
-                yield return new WaitForSeconds(audiosSecuencia[1].length + 0.4f);
                 gif.SetActive(false);
 
+                reproducirAudio(1);
+                yield return new WaitForSeconds(audiosSecuencia[1].length + 0.4f);
+                
                 video.SetActive(true);
                 yield return new WaitForSeconds(143 + 0.3f);
                 video.SetActive(false);
@@ -56,10 +61,10 @@ public class FunManagerRiesgosGenerales : MonoBehaviour
                 reproducirAudio(2);
                 yield return new WaitForSeconds(audiosSecuencia[2].length + 0.4f);
                 //Activar letrero Ruido
-                letreros[0].SetActive(true);
+
                 reproducirAudio(3);
                 yield return new WaitForSeconds(audiosSecuencia[3].length + 0.4f);
-
+                letreros[0].SetActive(true);
                 //                                                                     FALTA ACTIVAR COLLIDER DE OBJETO
 
                 break;
@@ -86,6 +91,13 @@ public class FunManagerRiesgosGenerales : MonoBehaviour
 
 
                 //                                                                       FALTA TEPEADA
+                personaje.llamarTransitionIn();
+                yield return new WaitForSeconds(1.0f);
+                personaje.transform.position = nuevaPos.transform.position;
+                personaje.transform.Rotate(new Vector3(0, 90, 0));
+                personaje.llamarTransitionOut();
+
+
                 //Activar letrero altura
                 reproducirAudio(7);
                 yield return new WaitForSeconds(audiosSecuencia[7].length + 0.4f);
@@ -124,7 +136,10 @@ public class FunManagerRiesgosGenerales : MonoBehaviour
                 reproducirAudio(12);
                 yield return new WaitForSeconds(audiosSecuencia[12].length + 0.4f);
                 //                                                                       FALTA SACAR ESCENARIO
-
+                personaje.llamarTransitionIn();
+                yield return new WaitForSeconds(1f);
+                Debug.Log("TERMINADO");
+                SceneManager.LoadScene(siguienteEscena);
                 break;
 
         }

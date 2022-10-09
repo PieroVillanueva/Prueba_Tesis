@@ -62,6 +62,8 @@ public class FunSeleccionadorEscena : MonoBehaviour
                 return 1;
             case 1:
                 return 5;
+            case 2:
+                return 8;
         }
         return 0;
     }
