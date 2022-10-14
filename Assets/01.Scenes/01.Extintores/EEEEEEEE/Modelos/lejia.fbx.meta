@@ -15,6 +15,11 @@ ModelImporter:
       name: specular_cube
     second: {fileID: 8900000, guid: 8bfb1e4677ca81b4fbbfb9b1674e5ec3, type: 3}
   - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StingrayPBS1
+    second: {fileID: 2100000, guid: a17947ca7286cc84995f579b91e202a0, type: 2}
+  - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: ibl_brdf_lut
@@ -116,7 +121,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 0.017
+    globalScale: 1.7
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0

@@ -10974,7 +10974,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb7a683c57944b540ba794d09b5f7379, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  siguienteEscena: 6
+  siguienteEscena: 3
   cantidadEpp: 7
   equiposAgarrados: 00000000000000
   epps:

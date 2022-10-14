@@ -9,17 +9,8 @@ EditorBuildSettings:
     path: Assets/01.Scenes/01.Extintores/A00000000/SC_Lobby 1.unity
     guid: bb8171cf1f520bf42bdbd9b40176765f
   - enabled: 1
-    path: Assets/01.Scenes/01.Extintores/AAAAAAAAAAA/Intro_Extintores.unity
-    guid: 8f8333d95b6c46648b0c3ce2c02f6aff
-  - enabled: 1
-    path: Assets/01.Scenes/01.Extintores/AAAAAAAAAAA/Extintores_01_Estacionamiento.unity
-    guid: 664afa332131ebd43bb207648df3572a
-  - enabled: 1
-    path: Assets/01.Scenes/01.Extintores/AAAAAAAAAAA/Extintores_02_Electrico.unity
-    guid: 5e6f2372a1eaa0147a30a197c77d77e3
-  - enabled: 1
-    path: Assets/01.Scenes/01.Extintores/AAAAAAAAAAA/Extintores_03_Oficina.unity
-    guid: 57643143135b3bb4a9f95303db66d0a5
+    path: Assets/01.Scenes/01.Extintores/Introduccion/Escena_Intro.unity
+    guid: 0a8693415ad940c4d85298b77b2133ab
   - enabled: 1
     path: Assets/01.Scenes/01.Extintores/BBBBBBBBB/Intro EPP.unity
     guid: 001ed0fdfc85ab84baccf889d5a36222
@@ -32,6 +23,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/01.Scenes/01.Extintores/DDDDDDDDDD/Riesgos Generales.unity
     guid: bea8d6a0aeb01794c85943f6b6609520
+  - enabled: 1
+    path: Assets/01.Scenes/01.Extintores/CCCCCCCCCCC/Secado al Vacio.unity
+    guid: 740a02249c4dd484ab0d9de817d1ed9a
+  - enabled: 1
+    path: Assets/01.Scenes/01.Extintores/AAAAAAAAAAA/Intro_Extintores.unity
+    guid: 8f8333d95b6c46648b0c3ce2c02f6aff
+  - enabled: 1
+    path: Assets/01.Scenes/01.Extintores/AAAAAAAAAAA/Extintores_02_Electrico.unity
+    guid: 5e6f2372a1eaa0147a30a197c77d77e3
+  - enabled: 1
+    path: Assets/01.Scenes/01.Extintores/EEEEEEEE/PELAMBRE.unity
+    guid: 7823af2f525c1c449af1a883bc5190b1
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: a6269f319a6ff0940855444fc1433387,
       type: 2}

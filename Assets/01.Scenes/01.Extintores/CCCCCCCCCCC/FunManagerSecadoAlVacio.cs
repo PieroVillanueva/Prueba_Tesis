@@ -1,9 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class FunManagerSecadoAlVacio : MonoBehaviour
 {
+    public int estaEscena;
+    public int siguienteEscena;
     [Header("Accidente")]
     public Movement personaje;
     public GameObject nuevaPos;
@@ -128,9 +130,9 @@ public class FunManagerSecadoAlVacio : MonoBehaviour
         yield return new WaitForSeconds(1.0f);
         esferaAccidente.SetActive(false);
         personaje.llamarTransitionOut();
-        //reproducir audio reintentalo 
-
+        yield return new WaitForSeconds(16f);
         //REINICIAR AUTOMATICO
+        SceneManager.LoadScene(estaEscena);
     }
 
 
@@ -231,6 +233,7 @@ public class FunManagerSecadoAlVacio : MonoBehaviour
                 yield return new WaitForSeconds(0.5f);
                 reproducirAudio(11);
                 yield return new WaitForSeconds(audiosSecuencia[11].length + 0.4f);
+                yield return new WaitForSeconds(4f);
                 //HABILITA COLOCAR SEGUNDA PIEL
                 espacioSegundaPiel.SetActive(true);
                 piel2.GetComponent<BoxCollider>().enabled = true;
@@ -257,7 +260,12 @@ public class FunManagerSecadoAlVacio : MonoBehaviour
                 reproducirAudio(14);
                 yield return new WaitForSeconds(audiosSecuencia[14].length + 0.4f);
                 //SALIDAAAAAAAAAA
+                yield return new WaitForSeconds(2f);
 
+                if (siguienteEscena>-1)
+                {
+                    SceneManager.LoadScene(siguienteEscena);
+                }
                 break;
 
         }

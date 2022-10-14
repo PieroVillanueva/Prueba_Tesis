@@ -40,6 +40,8 @@ TagManager:
   - Epp/Ropa
   - Epp/Guantes
   - Epp/Botas
+  - Bolsa
+  - Liquido
   layers:
   - Default
   - TransparentFX

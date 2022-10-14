@@ -99,7 +99,7 @@ LightmapSettings:
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 112000000, guid: fffc867729072f54997d5ae5e45b67cf,
     type: 2}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -12911,7 +12911,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 769096490f977c84e8351166b4bd3e9f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  siguienteEscena: 0
+  siguienteEscena: 2
   primerAgarre: 0
   sePuedeSoltar: 0
   primeraSoltada: 0

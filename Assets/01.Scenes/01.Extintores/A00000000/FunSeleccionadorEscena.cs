@@ -56,16 +56,16 @@ public class FunSeleccionadorEscena : MonoBehaviour
 
     public int asignarEscenaAOpcion(int opcion)
     {
-        switch (opcion)
-        {
-            case 0:
-                return 1;
-            case 1:
-                return 5;
-            case 2:
-                return 8;
-        }
-        return 0;
+        //switch (opcion)
+        //{
+        //    case 0:
+        //        return 1;
+        //    case 1:
+        //        return 5;
+        //    case 2:
+        //        return 8;
+        //}
+        return opcion;
     }
 
 

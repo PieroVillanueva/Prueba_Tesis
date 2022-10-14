@@ -28121,7 +28121,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28d4421dbd2ff2942b56dc55ae96ed23, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  escenaSiguiente: 7
+  escenaSiguiente: 4
   reproduciendoAudio: 0
   espacioDesactivado: 0
   letreroEscenario: {fileID: 610074367}
