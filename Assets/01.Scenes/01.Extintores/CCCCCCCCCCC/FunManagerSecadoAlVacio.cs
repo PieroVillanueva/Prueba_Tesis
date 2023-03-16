@@ -233,7 +233,7 @@ public class FunManagerSecadoAlVacio : MonoBehaviour
                 yield return new WaitForSeconds(0.5f);
                 reproducirAudio(11);
                 yield return new WaitForSeconds(audiosSecuencia[11].length + 0.4f);
-                yield return new WaitForSeconds(4f);
+                yield return new WaitForSeconds(6f);
                 //HABILITA COLOCAR SEGUNDA PIEL
                 espacioSegundaPiel.SetActive(true);
                 piel2.GetComponent<BoxCollider>().enabled = true;
